@@ -52,17 +52,14 @@ __National Merit Scholar__
 
 ## Publications (*student or postdoc of Farrar; †other student or postdoc) 
 
-<!-- A list is also available [online](https://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+A list is also available [online](https://scholar.google.fr/citations?user=jtomfarrar)
 
 ### Journals
-
 <!-- `1994`
 Article Title, Journal Title
 
 `1994`
 Article Title, Journal Title -->
-
-
 1. J.T. Farrar and R. A. Weller. Intraseasonal variability near 10◦N in the eastern tropical Pacific Ocean. J. Geophys. Res., 111(C05015):doi: 10.1029/2005JC002989, 2006. 
 1. A. J. Plueddemann and J.T. Farrar. Observations and models of the energy flux from the wind to mixed-layer inertial currents. Deep Sea Res. II, 53:5–30, 2006. 
 1. J.T. Farrar, C. J. Zappa, R. A. Weller, and A. T. Jessup. Sea surface temperature signatures of oceanic internal waves in low winds. J. Geophys. Res., 112(C06014):doi:10.1029/2006JC003947, 2007. 
@@ -71,7 +68,6 @@ Article Title, Journal Title -->
 1. H. Jiang, J.T. Farrar, R. C. Beardsley, R. Chen, and C. Chen. Zonal surface wind jets across the Red Sea due to mountain gap forcing along both sides of the Red Sea. Geophys. Res. Lett., 36(L19605):doi:10.1029/2009GL040008, 2009. 
 1. A. J. Wells*, C. Cenedese, J.T. Farrar, and C. J. Zappa. Variations in ocean surface temperature due to near-surface flow: straining the cool skin layer. Journal of physical oceanography, 39(11):2685–2710, 2009. 
 1. N. K. Ganju, S. J. Lentz, A. R. Kirincich, and J.T. Farrar. Complex mean circulation over the inner shelf south of martha’s vineyard revealed by observations and a high-resolution model. Journal of Geophysical Research: Oceans, 116(C10), 2011. 
-Farrar: September 15, 2020 2/15
 1. K. A. Davis†, S. J. Lentz, J. Pineda, J.T. Farrar, V. R. Starczak, and J. H. Churchill. Observations of the thermal environment on Red Sea platform reefs: a heat budget analysis. Coral Reefs, 30(1):25–36, 2011. 
 1. J.T. Farrar. Barotropic Rossby waves radiating from tropical instability waves in the Pacific Ocean. J. Phys. Oceanogr., 41:1160–1181, 2011. 
 1. P. Berloff, S Karabasov, J.T. Farrar, and I. Kamenkovich. On latency of multiple zonal jets in the oceans. Journal of Fluid Mechanics, 686:534–567, 2011. 
@@ -98,7 +94,6 @@ Farrar: September 15, 2020 2/15
 1. R. A. Weller, J.T. Farrar, J. Buckley, S. Mathew, R. Venkatesan, J. S. Lekha, D. Chaudhuri, N. S. Kumar, and B. P. Kumar. Air-sea interaction in the Bay of Bengal. Oceanography, 29(2):28–37, 2016. 
 1. E. L. Shroyer, D. L. Rudnick, J.T. Farrar, B. Lim, S. K. Venayagamoorthy, L. C. St Laurent, A. Garanaik, and J. N. Moum. Modification of upper-ocean temperature structure by subsurface mixing in the presence of strong salinity stratification. Oceanography, 29(2):62–71, 2016. 
 1. V. P. Thangaprakash, M. S. Girishkumar, A. Suprit, N. S. Kumar, D. Chaudhuri, K. Dinesh, A. Kumar, S. Shivaprasad, M. Ravichandran, J.T. Farrar, R. Sundar, and R. A. Weller. What controls seasonal evolution of sea surface temperature in the Bay of Bengal? Oceanography, 29(2):202–213, 2016. 
-Farrar: September 15, 2020 4/15
 1. F.J. Wentz, L. Ricciardulli, E. Rodriguez, B. Stiles, M. Bourassa, D. David Long, R. Hoffman, A. Stoffelen, A. Verhoef, L. ONeill, T. Farrar, D. Vandemark, A. Fore, S.H. Veleva, J. Turk, R. Gaston, and D. Tyler. Evaluating and extending the ocean wind climate data record. IEEE J. Selected Topics in Applied Earth Observations and Remote Sensing, PP(99):1–21, 2017. 
 1. A. C. Savage†, B. K. Arbic, J. G. Richman, J. F. Shriver, M. H. Alford, M. C. Buijsman, J.T. Farrar, H. Sharma, G. Voet, A. J. Wallcraft, and L. Zamudio. Frequency content of sea surface height variability from internal gravity waves to mesoscale eddies. Journal of Geophysical Research: Oceans, 122(3):2169–9291, 2017. 
 1. A.C. Savage†, B. K. Arbic, M. H. Alford, J. K. Ansong, J.T. Farrar, D. Menemenlis, A. K. O’Rourke, J. G. Richman, J. F. Shriver, G. Voet, A. J. Wallcraft, and L. Zamudio. Spectral decomposition of internal gravity wave sea surface height in global models. Journal of Geophysical Research: Oceans, 122(10):2169–9291, 2017. 
