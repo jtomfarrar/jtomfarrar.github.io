@@ -3,7 +3,7 @@ layout: resume
 ---
 ## Currently
 
-Associate Scientist /
+Associate Scientist /n
 Department of Physical Oceanography
 Woods Hole Oceanographic Institution
 
