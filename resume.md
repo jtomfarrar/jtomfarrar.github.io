@@ -28,27 +28,27 @@ B.A. (Philosophy)
 Name of Award, Organization 
 
 `2018`
-Principal Investigator of the Sub-Mesoscale Ocean Dynamics Experiment (S-MODE), a $30M NASA Earth Venture Suborbital Mission with 21 co-investigators, remote sensing measurements from three aircraft, and three research cruises that will take place in 2020-2021.
+Principal Investigator of the Sub-Mesoscale Ocean Dynamics Experiment (S-MODE), a $30M NASA Earth Venture Suborbital Mission with 21 co-investigators, remote sensing measurements from three aircraft, and three research cruises that will take place in 2020-2021.  
 `2017`
 American Meteorological Society Nicholas P. Fofonoff Award in recognition of research achievement in
 physical oceanography, for “insightful analysis of observations yielding a deeper understanding of tropical and
-upper ocean dynamics, and for generous collaboration and leadership in major field experiments”
+upper ocean dynamics, and for generous collaboration and leadership in major field experiments”  
 `2012` 
-Editors’ Citation for Excellence in Refereeing, Journal of Geophysical Research-Oceans
+Editors’ Citation for Excellence in Refereeing, Journal of Geophysical Research-Oceans  
 `2006` 
-Outstanding Student Paper Award, AGU Ocean Sciences meeting
+Outstanding Student Paper Award, AGU Ocean Sciences meeting  
 `2000-2001` 
-MIT Presidential Fellowship
+MIT Presidential Fellowship  
 `2000` 
-Most Outstanding Physics Student, University of Oklahoma
+Most Outstanding Physics Student, University of Oklahoma  
 `1999` 
-Phi Beta Kappa
+Phi Beta Kappa  
 `1999` 
-Golden Key National Honor Society
+Golden Key National Honor Society  
 `1998` 
-Sigma Pi Sigma (physics honor society)
+Sigma Pi Sigma (physics honor society)  
 `1994` 
-National Merit Scholar
+National Merit Scholar  
 
 ## Publications
 
