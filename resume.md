@@ -9,9 +9,9 @@ Woods Hole Oceanographic Institution
 
 ## Education
 
-`1990 - 1994`
-__University Name__
-Degree Awarded
+`2007`
+__Massachusetts Institute of Technology-Woods Hole Oceanographic Institution__
+Physical Oceanography
 
 `1995 - 1997`
 __University Name__
