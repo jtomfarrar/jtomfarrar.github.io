@@ -3,7 +3,9 @@ layout: resume
 ---
 ## Currently
 
-Current Position Description
+Associate Scientist
+Department of Physical Oceanography
+Woods Hole Oceanographic Institution
 
 ## Education
 
