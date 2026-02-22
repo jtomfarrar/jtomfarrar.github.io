@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="J. Thomas Farrar is a Senior Scientist at WHOI focused on upper-ocean physics, air-sea interaction, and satellite oceanography."
+    />
+    <title>J. Thomas Farrar | Physical Oceanography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a href="#home" class="brand">J. Thomas Farrar</a>
+      <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav" id="site-nav">
+        <a href="#about">About</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="#updates">Updates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home" class="home-wrap">
+      <div class="home-grid">
+        <aside class="profile card reveal">
+          <img class="avatar" src="material/snow_headshot.jpg" alt="J. Thomas Farrar" />
+          <h1>J. Thomas Farrar</h1>
+          <p class="title-line">Senior Scientist</p>
+          <p class="title-line">Physical Oceanography Department</p>
+          <p class="title-line">Woods Hole Oceanographic Institution</p>
+
+          <ul class="meta-list">
+            <li>Woods Hole, Massachusetts</li>
+            <li><a href="mailto:jfarrar@whoi.edu">jfarrar@whoi.edu</a></li>
+            <li><a href="https://www2.whoi.edu/staff/jfarrar/" target="_blank" rel="noopener">WHOI Profile</a></li>
+            <li><a href="https://scholar.google.com/citations?user=n7MM7VQAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+            <li><a href="https://orcid.org/0000-0003-3495-1990" target="_blank" rel="noopener">ORCID</a></li>
+            <li><a href="material/Tom_CV-6.pdf" target="_blank" rel="noopener">CV (PDF)</a></li>
+          </ul>
+        </aside>
+
+        <div class="home-content">
+          <section class="home-section reveal" id="about">
+            <h2>About</h2>
+            <p>
+              I am an ocean scientist studying air-sea interaction, upper-ocean dynamics, and ocean observing
+              systems using in situ observations, satellite observations, and numerical models.
+            </p>
+            <p>
+              I serve as U.S. oceanographic lead for the Surface Water and Ocean Topography (SWOT) mission and as
+              Principal Investigator for NASA S-MODE.
+            </p>
+            <figure class="home-globe">
+              <img src="material/NASA_blue_marble.jpg" alt="Blue Marble Earth image" />
+            </figure>
+          </section>
+
+          <section class="home-section reveal" id="research">
+            <h2>Research</h2>
+            <ul class="plain-list">
+              <li>Air-sea fluxes of heat, freshwater, and momentum</li>
+              <li>Upper-ocean dynamics and thermodynamics</li>
+              <li>Submesoscale and tropical ocean processes</li>
+              <li>Satellite oceanography and calibration/validation</li>
+              <li>Ocean observing systems with buoys and uncrewed platforms</li>
+            </ul>
+          </section>
+
+          <section class="home-section reveal" id="roles">
+            <h2>Current Roles</h2>
+            <ul class="plain-list role-list">
+              <li>Senior Scientist, WHOI Physical Oceanography Department</li>
+              <li>Science Team Co-Lead and U.S. lead oceanographer, SWOT mission</li>
+              <li>Principal Investigator, NASA S-MODE</li>
+              <li>Lead, WHOI Upper Ocean Processes Group</li>
+            </ul>
+          </section>
+
+          <section class="home-section reveal" id="programs">
+            <h2>Programs</h2>
+            <ul class="plain-list links-list">
+              <li><a href="https://science.nasa.gov/mission/swot/" target="_blank" rel="noopener">SWOT Mission</a></li>
+              <li><a href="https://podaac.jpl.nasa.gov/S-MODE" target="_blank" rel="noopener">S-MODE</a></li>
+              <li><a href="https://uop.whoi.edu/" target="_blank" rel="noopener">WHOI Upper Ocean Processes Group</a></li>
+              <li><a href="publications.html">Publication List</a></li>
+            </ul>
+          </section>
+
+          <section class="home-section reveal" id="updates">
+            <h2>Selected Updates</h2>
+            <ul class="plain-list news-list">
+              <li>2026: NASA Group Achievement Award, SWOT Cal/Val Field Campaign Team.</li>
+              <li>2024: NASA Group Achievement Award, S-MODE Team.</li>
+              <li>2025: <a href="https://doi.org/10.1175/BAMS-D-23-0178.1" target="_blank" rel="noopener">S-MODE overview paper</a> published in BAMS.</li>
+            </ul>
+          </section>
+
+          <section class="home-section reveal" id="contact">
+            <h2>Contact</h2>
+            <p>
+              For collaboration, student/postdoc inquiries, and mission science coordination:
+              <a href="mailto:jfarrar@whoi.edu">jfarrar@whoi.edu</a>
+            </p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> J. Thomas Farrar</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
