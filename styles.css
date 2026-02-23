@@ -23,6 +23,7 @@ html {
 body {
   margin: 0;
   font-family: "Space Grotesk", sans-serif;
+  font-size: 17px;
   background: linear-gradient(170deg, var(--bg) 0%, #f3f7f8 46%, #edf3f1 100%);
   color: var(--ink);
   line-height: 1.55;
@@ -55,12 +56,12 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.7rem clamp(1rem, 4vw, 2.4rem);
+  padding: 0.8rem clamp(1rem, 4vw, 2.4rem);
 }
 
 .brand {
   font-family: "Source Serif 4", serif;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--ink);
   text-decoration: none;
@@ -74,8 +75,8 @@ img {
 .nav a {
   color: var(--ink);
   text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 500;
+  font-size: 0.95rem;
+  font-weight: 600;
   padding: 0.25rem 0;
   border-bottom: 2px solid transparent;
   transition: border-color 220ms ease;
@@ -416,15 +417,15 @@ h2 {
 }
 
 .home-wrap {
-  width: min(1020px, calc(100% - 2rem));
+  width: min(1120px, calc(100% - 2rem));
   margin: 0 auto;
-  padding: 1.2rem 0 2rem;
+  padding: 1.3rem 0 2rem;
 }
 
 .home-grid {
   display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 1.8rem;
+  grid-template-columns: 320px 1fr;
+  gap: 2rem;
   align-items: start;
 }
 
@@ -445,7 +446,7 @@ h2 {
 }
 
 .profile h1 {
-  font-size: 1.55rem;
+  font-size: 1.65rem;
   line-height: 1.12;
   margin-bottom: 0.4rem;
 }
@@ -479,12 +480,20 @@ h2 {
 
 .home-content {
   display: grid;
-  gap: 1.25rem;
+  gap: 0.95rem;
   padding-top: 0.1rem;
 }
 
+.home-section {
+  background: rgba(252, 255, 255, 0.72);
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  padding: 0.9rem 1rem;
+  box-shadow: var(--shadow);
+}
+
 .home-section h2 {
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   margin-bottom: 0.35rem;
 }
 
@@ -492,6 +501,7 @@ h2 {
   margin: 0.35rem 0;
   color: var(--ink-muted);
   max-width: 74ch;
+  font-size: 1rem;
 }
 
 .home-globe {
@@ -512,6 +522,7 @@ h2 {
   margin: 0.35rem 0 0;
   padding-left: 1.1rem;
   color: var(--ink-muted);
+  font-size: 0.98rem;
 }
 
 .plain-list li + li {
@@ -529,6 +540,21 @@ h2 {
 
 .news-list a {
   color: var(--primary-strong);
+}
+
+.uop-logo-feature {
+  margin-top: 0.75rem;
+  display: inline-block;
+  border-radius: 0.55rem;
+  border: 1px solid var(--line);
+  background: rgba(250, 253, 254, 0.95);
+  padding: 0.45rem 0.65rem;
+}
+
+.uop-logo-feature img {
+  height: 76px;
+  width: auto;
+  object-fit: contain;
 }
 
 @media (max-width: 900px) {
@@ -638,13 +664,17 @@ pre {
 }
 
 .research-wrap {
-  width: min(1020px, calc(100% - 2rem));
+  width: min(1120px, calc(100% - 2rem));
   margin: 0 auto;
-  padding: 1rem 0 2.2rem;
+  padding: 1.2rem 0 2.2rem;
 }
 
 .research-intro {
-  padding-bottom: 0.6rem;
+  padding-bottom: 0.2rem;
+}
+
+.research-intro h1 {
+  font-size: clamp(2rem, 4vw, 2.7rem);
 }
 
 .research-intro p {
@@ -653,18 +683,24 @@ pre {
 }
 
 .research-section {
-  margin-top: 1rem;
-  padding-top: 0.9rem;
-  border-top: 1px solid var(--line);
+  margin-top: 1.15rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: rgba(252, 255, 255, 0.75);
+  box-shadow: var(--shadow);
 }
 
 .research-head h2 {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.3rem;
+  font-size: 1.5rem;
 }
 
 .research-head p {
   margin: 0 0 0.65rem;
   color: var(--ink-muted);
+  font-size: 1rem;
+  max-width: 80ch;
 }
 
 .research-media-grid {
@@ -688,9 +724,23 @@ pre {
 
 .research-figure img {
   width: 100%;
-  height: clamp(220px, 32vw, 360px);
+  height: clamp(240px, 35vw, 430px);
   object-fit: contain;
   background: #f6fafb;
+}
+
+.uop-feature-logo {
+  background: #ffffff;
+}
+
+.uop-feature-logo a {
+  display: block;
+  height: 100%;
+}
+
+.uop-feature-logo img {
+  background: #ffffff;
+  padding: 0.8rem;
 }
 
 .paper-block h3 {
@@ -708,14 +758,27 @@ pre {
 
 .paper-item {
   margin: 0;
-  padding: 0.5rem 0;
+  padding: 0.58rem 0;
   border-bottom: 1px solid var(--line);
   color: var(--ink);
-  font-size: 0.93rem;
-  line-height: 1.45;
+  font-size: 0.98rem;
+  line-height: 1.5;
+}
+
+.research-head a {
+  color: var(--primary-strong);
+  font-weight: 700;
 }
 
 @media (max-width: 780px) {
+  body {
+    font-size: 16px;
+  }
+
+  .research-section {
+    padding: 0.8rem;
+  }
+
   .research-media-grid.two-up {
     grid-template-columns: 1fr;
   }
