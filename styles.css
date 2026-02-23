@@ -531,6 +531,12 @@ h2 {
 
 .links-list a {
   color: var(--primary-strong);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.links-list a:hover {
+  border-bottom-color: currentColor;
 }
 
 .role-list li,
@@ -538,8 +544,19 @@ h2 {
   color: var(--ink);
 }
 
+.role-list a {
+  color: var(--primary-strong);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.role-list a:hover {
+  border-bottom-color: currentColor;
+}
+
 .news-list a {
   color: var(--primary-strong);
+  text-decoration: underline;
 }
 
 .uop-logo-feature {
@@ -548,11 +565,11 @@ h2 {
   border-radius: 0.55rem;
   border: 1px solid var(--line);
   background: rgba(250, 253, 254, 0.95);
-  padding: 0.45rem 0.65rem;
+  padding: 0.35rem 0.5rem;
 }
 
 .uop-logo-feature img {
-  height: 76px;
+  height: 48px;
   width: auto;
   object-fit: contain;
 }
@@ -580,8 +597,9 @@ h2 {
 .pub-controls {
   display: grid;
   gap: 0.35rem;
-  max-width: 720px;
+  max-width: 900px;
   padding: 0.75rem;
+  margin: 0 auto;
 }
 
 .pub-controls label {
@@ -608,6 +626,8 @@ h2 {
   display: grid;
   gap: 0.9rem;
   padding-top: 0.1rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .pub-year-group {
@@ -630,7 +650,7 @@ h2 {
 
 .pub-item {
   display: block;
-  padding: 0.5rem 0;
+  padding: 0.65rem 0;
   border-bottom: 1px solid var(--line);
   background: transparent;
 }
@@ -638,8 +658,8 @@ h2 {
 .pub-citation {
   margin: 0;
   color: var(--ink);
-  font-size: 0.93rem;
-  line-height: 1.45;
+  font-size: 1rem;
+  line-height: 1.55;
 }
 
 .inline-link {
