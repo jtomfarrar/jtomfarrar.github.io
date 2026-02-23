@@ -36,6 +36,26 @@ If using a **project site** (not `username.github.io`), update relative links if
 `publications.html` uses:
 - `publications-data.js` (bundled publication data; works even when opening HTML directly)
 - `material/Tom_CV-6.txt` as parser fallback
+- static publication HTML generated into `publications.html` for search-engine crawling
+
+### Quick future update workflow
+
+After updating your CV PDF, run:
+
+```bash
+cd personal_website
+pdftotext -layout material/Tom_CV-6.pdf material/Tom_CV-6.txt
+```
+
+Then regenerate `publications-data.js` (existing command below), and finally regenerate the static HTML block:
+
+```bash
+python generate_publications_static.py
+```
+
+This keeps:
+- dynamic search/filter behavior (JavaScript)
+- static publication content in page source (better indexing by crawlers)
 
 Regenerate when CV is updated:
 
