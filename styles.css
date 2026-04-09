@@ -1194,3 +1194,245 @@ pre {
     grid-template-columns: 1fr;
   }
 }
+
+/* ─────────────────────────────────────────────
+   TEAM PAGE
+   ───────────────────────────────────────────── */
+.team-wrap {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 1.2rem 0 2.5rem;
+}
+
+.team-intro {
+  padding: clamp(1rem, 2.5vw, 1.8rem) 0 0.2rem;
+}
+
+.team-intro h1 {
+  margin: 0 0 0.45rem;
+}
+
+.team-intro p {
+  max-width: 60ch;
+  color: var(--ink-muted);
+  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+  margin: 0;
+}
+
+.team-section {
+  background: rgba(252, 255, 255, 0.82);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: clamp(1.1rem, 3vw, 2rem);
+  margin-bottom: 1.2rem;
+  box-shadow: var(--shadow);
+}
+
+.team-section-head {
+  margin-bottom: 1.3rem;
+}
+
+.team-section-head h2 {
+  margin: 0 0 0.25rem;
+  font-size: clamp(1.15rem, 2.5vw, 1.4rem);
+}
+
+.team-section-head p {
+  margin: 0;
+  color: var(--ink-muted);
+  font-size: 0.92rem;
+}
+
+/* Current members grid */
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.9rem;
+}
+
+.member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  padding: 1rem 0.75rem 0.85rem;
+  gap: 0.55rem;
+}
+
+.member-photo,
+.member-initials {
+  width: 100px;
+  height: 100px;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+
+.member-photo {
+  object-fit: cover;
+  display: block;
+  object-position: center top;
+}
+
+.member-initials {
+  background: var(--primary);
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-name {
+  font-family: "Source Serif 4", serif;
+  font-size: 0.97rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.member-title {
+  font-size: 0.79rem;
+  color: var(--ink-muted);
+  margin: 0;
+  line-height: 1.35;
+}
+
+/* Former members */
+.former-subsection {
+  margin-top: 1.6rem;
+}
+
+.former-subsection:first-child {
+  margin-top: 0;
+}
+
+.former-subsection h3 {
+  font-size: 0.85rem;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--primary-strong);
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.former-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.former-item {
+  display: grid;
+  grid-template-columns: 52px 1fr auto;
+  gap: 0.2rem 0.8rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  align-items: center;
+}
+
+.former-photo,
+.former-initials-sm {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  width: 52px;
+  height: 52px;
+  border-radius: 0.4rem;
+  object-fit: cover;
+  object-position: center 20%;
+  flex-shrink: 0;
+}
+
+.former-initials-sm {
+  background: var(--primary);
+  color: #fff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.former-item:last-child {
+  border-bottom: none;
+}
+
+.former-name {
+  font-weight: 500;
+  color: var(--ink);
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.former-name a {
+  color: var(--primary-strong);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.former-name a:hover {
+  color: var(--primary);
+}
+
+.former-role {
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.former-years {
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  text-align: right;
+  white-space: nowrap;
+  grid-column: 3;
+  grid-row: 1 / 3;
+  display: flex;
+  align-items: center;
+}
+
+.former-item-simple {
+  padding: 0.38rem 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.former-item-simple:last-child {
+  border-bottom: none;
+}
+
+.former-item-simple .former-role {
+  display: inline;
+}
+
+@media (max-width: 900px) {
+  .member-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .member-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 380px) {
+  .member-grid {
+    grid-template-columns: 1fr;
+  }
+}
