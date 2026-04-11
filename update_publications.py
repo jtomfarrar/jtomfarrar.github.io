@@ -118,6 +118,38 @@ def write_publications_data(publications: list[dict]) -> None:
     PUBLICATIONS_DATA.write_text(payload, encoding="utf-8")
 
 
+def title_snippet(citation: str) -> str:
+    parts = [part.strip() for part in citation.split(". ") if part.strip()]
+    for index, part in enumerate(parts):
+        if index == 0:
+            continue
+        if len(part.split()) >= 4 and not generate_publications_static.looks_like_author_segment(part):
+            return part
+    return citation[:120].strip()
+
+
+def report_scholar_fallbacks(publications: list[dict]) -> None:
+    title_map = generate_publications_static.load_link_maps()
+    fallbacks: list[tuple[int, str]] = []
+
+    for pub in publications:
+        if pub.get("section") == "other":
+            continue
+
+        citation = pub.get("citation", "").strip()
+        _, source = generate_publications_static.resolve_publication_url(citation, title_map)
+        if source == "scholar":
+            fallbacks.append((int(pub.get("number", 0)), title_snippet(citation)))
+
+    if not fallbacks:
+        print("Scholar fallback audit: 0 entries.")
+        return
+
+    print(f"Scholar fallback audit: {len(fallbacks)} entries still use Google Scholar.")
+    for number, snippet in fallbacks:
+        print(f"  [{number}] {snippet}")
+
+
 def main() -> int:
     if not CV_PDF.exists():
         print(f"Missing CV PDF: {CV_PDF}", file=sys.stderr)
@@ -129,6 +161,7 @@ def main() -> int:
     write_publications_data(publications)
     generate_publications_static.main()
     print(f"Wrote {len(publications)} entries to {PUBLICATIONS_DATA.name}.")
+    report_scholar_fallbacks(publications)
     return 0
 
 

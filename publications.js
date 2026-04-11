@@ -2,6 +2,8 @@ const pubSection = document.querySelector('#pub-sections');
 const pubSearch = document.querySelector('#pub-search');
 const pubCount = document.querySelector('#pub-count');
 
+// These title-based mappings are only used when the CV citation does not
+// already include a DOI or other direct URL.
 const EXTRA_DIRECT_LINKS = [
   {
     key: 'salinity and temperature balances at the spurs central mooring',
@@ -72,12 +74,64 @@ const EXTRA_DIRECT_LINKS = [
     url: 'https://doi.org/10.1175/BAMS-D-23-0178.1',
   },
   {
+    key: 's-mode: the submesoscale ocean dynamics experiment',
+    url: 'https://doi.org/10.1175/BAMS-D-23-0178.1',
+  },
+  {
     key: 'atmospheric wind energization of ocean weather',
     url: 'https://doi.org/10.1038/s41467-025-56310-1',
   },
   {
+    key: 'modulation of diurnal sst and diurnal warm layer variability by salinity-driven stratification in the bay of bengal',
+    url: 'https://doi.org/10.1175/JPO-D-25-0134.1',
+  },
+  {
+    key: 'monsoons, plumes, and blooms: intraseasonal variability of subsurface primary productivity in the bay of bengal',
+    url: 'https://doi.org/10.5194/os-22-443-2026',
+  },
+  {
+    key: 'a multi-agency experiment on internal wave energy, mixing, and interactions and their representation in global ocean models and operational forecasts',
+    url: 'https://doi.org/10.1175/BAMS-D-24-0174.1',
+  },
+  {
+    key: 'acoustic doppler current profiler measurements from saildrones with applications to submesoscale studies',
+    url: 'https://doi.org/10.31223/X5SX30',
+  },
+  {
+    key: 'turbulence and energy dissipation from wave breaking',
+    url: 'https://doi.org/10.1175/JPO-D-25-0052.1',
+  },
+  {
+    key: 'momentum fluxes in wind-forced breaking waves',
+    url: 'https://doi.org/10.1017/jfm.2025.356',
+  },
+  {
+    key: 'a data-driven wind-to-current response function and application to ocean surface current estimates',
+    url: 'https://doi.org/10.5194/os-21-2915-2025',
+  },
+  {
     key: 'observations of a splitting ocean cyclone resulting in subduction of surface waters',
     url: 'https://doi.org/10.1126/sciadv.adu3221',
+  },
+  {
+    key: '3d-intrusions transport active surface microbial assemblages to the dark ocean',
+    url: 'https://doi.org/10.1073/pnas.2319937121',
+  },
+  {
+    key: 'on the development of swot in-situ calibration/validation for short-wavelength ocean topography',
+    url: 'https://doi.org/10.1175/JTECH-D-21-0039.1',
+  },
+  {
+    key: 'fluxsat: measuring the ocean–atmosphere turbulent exchange of heat and moisture from space',
+    url: 'https://doi.org/10.3390/rs12111796',
+  },
+  {
+    key: 'another note on rossby wave energy flux',
+    url: 'https://doi.org/10.1175/JPO-D-19-0237.1',
+  },
+  {
+    key: 'ecoctd for profiling oceanic physical-biological properties from an underway ship',
+    url: 'https://doi.org/10.1175/JTECH-D-19-0145.1',
   },
   {
     key: 'airborne observations of fast-evolving oceansubmesoscale turbulence',
@@ -293,22 +347,6 @@ const EXTRA_DIRECT_LINKS = [
   },
 ];
 
-const DIRECT_LINKS_BY_NUMBER = {
-  5: 'https://doi.org/10.5194/os-22-443-2026',
-  7: 'https://doi.org/10.1175/JPO-D-25-0134.1',
-  8: 'https://doi.org/10.1175/BAMS-D-24-0174.1',
-  9: 'https://doi.org/10.31223/X5SX30',
-  11: 'https://doi.org/10.1175/JPO-D-24-0186.1',
-  14: 'https://doi.org/10.5194/os-21-2915-2025',
-  16: 'https://doi.org/10.1175/BAMS-D-23-0178.1',
-  18: 'https://doi.org/10.1017/jfm.2025.356',
-  27: 'https://doi.org/10.1073/pnas.2319937121',
-  35: 'https://doi.org/10.1175/JTECH-D-22-0098.1',
-  50: 'https://doi.org/10.3390/rs12111796',
-  51: 'https://doi.org/10.1175/JPO-D-19-0212.1',
-  52: 'https://doi.org/10.1175/JTECH-D-19-0176.1',
-};
-
 function normalizeLine(line) {
   return line
     .replace(/\u000c/g, ' ')
@@ -473,7 +511,6 @@ function toItem(p) {
   item.className = 'pub-item';
 
   const primaryUrl =
-    DIRECT_LINKS_BY_NUMBER[p.number] ||
     extractPrimaryUrl(p.citation) ||
     extractMappedUrl(p.citation) ||
     buildScholarSearchUrl(p.citation);

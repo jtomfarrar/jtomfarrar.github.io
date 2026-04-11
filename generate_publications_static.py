@@ -59,20 +59,14 @@ def extract_url(citation: str) -> str | None:
     return None
 
 
-def load_link_maps() -> tuple[dict[int, str], list[tuple[str, str]]]:
+def load_link_maps() -> list[tuple[str, str]]:
     text = LINK_JS_FILE.read_text(encoding="utf-8")
-    number_map: dict[int, str] = {}
     title_map: list[tuple[str, str]] = []
-
-    number_block = re.search(r"DIRECT_LINKS_BY_NUMBER\s*=\s*\{(.*?)\};", text, re.S)
-    if number_block:
-        for n, url in re.findall(r'(\d+)\s*:\s*[\'"]([^\'"]+)[\'"]', number_block.group(1)):
-            number_map[int(n)] = url
 
     for key, url in re.findall(r"key:\s*'([^']+)'\s*,\s*\n\s*url:\s*'([^']+)'", text):
         title_map.append((key.lower(), url))
 
-    return number_map, title_map
+    return title_map
 
 
 def mapped_url(citation: str, title_map: list[tuple[str, str]]) -> str | None:
@@ -81,6 +75,20 @@ def mapped_url(citation: str, title_map: list[tuple[str, str]]) -> str | None:
         if key in lower:
             return url
     return None
+
+
+def resolve_publication_url(
+    citation: str, title_map: list[tuple[str, str]]
+) -> tuple[str, str]:
+    direct_url = extract_url(citation)
+    if direct_url:
+        return direct_url, "direct"
+
+    mapped = mapped_url(citation, title_map)
+    if mapped:
+        return mapped, "mapped"
+
+    return scholar_search_url(citation), "scholar"
 
 
 def scholar_search_url(citation: str) -> str:
@@ -130,34 +138,29 @@ def format_citation_html(citation: str, url: str | None) -> str:
     return safe
 
 
-def render_item(pub: dict, number_map: dict[int, str], title_map: list[tuple[str, str]]) -> str:
+def render_item(pub: dict, title_map: list[tuple[str, str]]) -> str:
     citation = pub.get("citation", "").strip()
     number = pub.get("number", "")
-    url = (
-        number_map.get(int(number))
-        or extract_url(citation)
-        or mapped_url(citation, title_map)
-        or scholar_search_url(citation)
-    )
+    url, _ = resolve_publication_url(citation, title_map)
     safe_citation = format_citation_html(citation, url)
     return f'      <article class="pub-item"><p class="pub-citation">[{number}] {safe_citation}</p></article>'
 
 
 def render_section(
-    title: str, pubs: list[dict], group_key: str, number_map: dict[int, str], title_map: list[tuple[str, str]]
+    title: str, pubs: list[dict], group_key: str, title_map: list[tuple[str, str]]
 ) -> str:
     lines = [
         f'  <section class="pub-year-group" data-group="{html.escape(group_key, quote=True)}">',
         f'    <h2 class="pub-year">{html.escape(title)}</h2>',
         '    <div class="pub-year-list">',
     ]
-    lines.extend(render_item(pub, number_map, title_map) for pub in pubs)
+    lines.extend(render_item(pub, title_map) for pub in pubs)
     lines.extend(["    </div>", "  </section>"])
     return "\n".join(lines)
 
 
 def build_static_markup(
-    publications: list[dict], number_map: dict[int, str], title_map: list[tuple[str, str]]
+    publications: list[dict], title_map: list[tuple[str, str]]
 ) -> str:
     items = [p for p in publications if p.get("section") != "other"]
     items.sort(key=lambda p: int(p.get("number", 0)))
@@ -183,12 +186,12 @@ def build_static_markup(
 
     parts: list[str] = []
     if in_review:
-        parts.append(render_section("Manuscripts in review", in_review, "review", number_map, title_map))
+        parts.append(render_section("Manuscripts in review", in_review, "review", title_map))
     for year in ordered_years:
         if year == "Undated":
-            parts.append(render_section("Undated", groups[year], "Undated", number_map, title_map))
+            parts.append(render_section("Undated", groups[year], "Undated", title_map))
         else:
-            parts.append(render_section(year, groups[year], year, number_map, title_map))
+            parts.append(render_section(year, groups[year], year, title_map))
     return "\n".join(parts)
 
 
@@ -211,8 +214,8 @@ def update_publications_html(static_markup: str) -> None:
 
 def main() -> None:
     publications = load_publications()
-    number_map, title_map = load_link_maps()
-    static_markup = build_static_markup(publications, number_map, title_map)
+    title_map = load_link_maps()
+    static_markup = build_static_markup(publications, title_map)
     update_publications_html(static_markup)
     print(f"Wrote static publication HTML for {len(publications)} entries.")
 
