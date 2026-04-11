@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Concept 3 | Field Notebook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,700&family=DM+Sans:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --paper: #f4efe6;
+        --paper-deep: #e6dccb;
+        --ink: #1c2427;
+        --muted: #5f6766;
+        --accent: #b55f34;
+        --line: rgba(28, 36, 39, 0.14);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--ink);
+        font-family: "DM Sans", sans-serif;
+        background:
+          linear-gradient(180deg, rgba(244, 239, 230, 0.7), rgba(244, 239, 230, 0.92)),
+          url("../../material/group_photos/San_sunset_MISO_2019-IMG_0701.jpg") center / cover fixed;
+      }
+      img { display: block; max-width: 100%; }
+      .canvas {
+        width: min(1240px, calc(100% - 1.2rem));
+        margin: 0 auto;
+        padding: 1rem 0 3rem;
+      }
+      .paper {
+        background:
+          linear-gradient(180deg, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.8)),
+          var(--paper);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 1.8rem;
+        box-shadow: 0 32px 100px -56px rgba(23, 24, 17, 0.55);
+        backdrop-filter: blur(18px);
+        overflow: hidden;
+      }
+      .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 1.2rem;
+        border-bottom: 1px solid var(--line);
+      }
+      .brand, .nav a {
+        text-decoration: none;
+        color: var(--ink);
+        font-weight: 800;
+      }
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        font-size: 0.93rem;
+      }
+      .hero {
+        position: relative;
+        min-height: 88svh;
+        overflow: hidden;
+      }
+      .hero img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(24, 20, 14, 0.16), rgba(24, 20, 14, 0.72));
+      }
+      .hero-copy {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        align-content: end;
+        gap: 1rem;
+        min-height: 88svh;
+        padding: clamp(1.25rem, 4vw, 2.5rem);
+        color: white;
+      }
+      .hero-kicker {
+        width: fit-content;
+        padding: 0.5rem 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      h1, h2, h3 {
+        margin: 0;
+        font-family: "Fraunces", serif;
+        font-weight: 500;
+      }
+      h1 {
+        font-size: clamp(3.4rem, 8vw, 6.7rem);
+        line-height: 0.9;
+        max-width: 7.5ch;
+      }
+      .hero-copy p {
+        max-width: 54ch;
+        margin: 0;
+        font-size: 1.06rem;
+        line-height: 1.8;
+        color: rgba(255, 255, 255, 0.86);
+      }
+      .hero-notes {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.75rem;
+      }
+      .hero-notes div {
+        padding: 0.9rem;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(8px);
+      }
+      .hero-notes strong {
+        display: block;
+        margin-bottom: 0.3rem;
+      }
+      .content {
+        padding: 1.2rem;
+      }
+      .spread {
+        display: grid;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .panel, .note, .quote, .strip {
+        border: 1px solid var(--line);
+        border-radius: 1.4rem;
+        background: rgba(255, 251, 245, 0.88);
+      }
+      .panel {
+        padding: 1.2rem;
+      }
+      .panel p, .panel li, .note p {
+        color: var(--muted);
+        line-height: 1.75;
+      }
+      .panel ul {
+        margin: 0;
+        padding-left: 1.1rem;
+      }
+      .note-stack {
+        display: grid;
+        gap: 1rem;
+      }
+      .note {
+        padding: 1rem 1.1rem;
+      }
+      .note small {
+        display: block;
+        margin-bottom: 0.45rem;
+        color: var(--accent);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-weight: 800;
+      }
+      .mosaic {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .mosaic figure, .strip figure {
+        margin: 0;
+        overflow: hidden;
+        border-radius: 1.2rem;
+      }
+      .mosaic img, .strip img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .mosaic-main {
+        min-height: 520px;
+      }
+      .mosaic-side {
+        display: grid;
+        gap: 1rem;
+      }
+      .mosaic-side figure:first-child {
+        min-height: 240px;
+      }
+      .mosaic-side figure:last-child {
+        min-height: 260px;
+      }
+      .quote {
+        padding: 1.35rem;
+        margin-top: 1rem;
+        background: linear-gradient(135deg, rgba(230, 220, 203, 0.9), rgba(255, 248, 239, 0.95));
+      }
+      .quote p {
+        margin: 0;
+        font-family: "Fraunces", serif;
+        font-size: clamp(1.5rem, 3vw, 2.3rem);
+        line-height: 1.25;
+      }
+      .strip {
+        margin-top: 1rem;
+        padding: 1rem;
+      }
+      .strip-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+      }
+      .caption {
+        margin-top: 0.6rem;
+        color: var(--muted);
+        font-size: 0.92rem;
+        line-height: 1.6;
+      }
+      .footer {
+        padding: 1.2rem;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      @media (max-width: 980px) {
+        .spread,
+        .mosaic,
+        .strip-grid {
+          grid-template-columns: 1fr;
+        }
+        .hero-notes {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="canvas">
+      <div class="paper">
+        <header class="topbar">
+          <a class="brand" href="../index.html">Alternative Concepts</a>
+          <nav class="nav">
+            <a href="#notebook">Notebook</a>
+            <a href="#photos">Photos</a>
+            <a href="#proof">Proof</a>
+            <a href="../../index.html">Current Site</a>
+          </nav>
+        </header>
+
+        <section class="hero">
+          <img
+            src="../../material/group_photos/San_Sunset_MISO_2019-IMG_1089-HDR-Pano-Edit.jpg"
+            alt="Panoramic sunset over the Bay of Bengal during the MISO-BoB cruise"
+          />
+          <div class="hero-copy">
+            <div class="hero-kicker">Concept 3 / Field Notebook</div>
+            <h1>Science at sea, not just on paper.</h1>
+            <p>
+              The current site's photos are excellent but underused. This concept gives them narrative authority so
+              the visitor feels the campaigns, platforms, and human scale of the work before reading the details.
+            </p>
+            <div class="hero-notes">
+              <div>
+                <strong>Atmosphere first</strong>
+                The first screen behaves like an expedition journal cover.
+              </div>
+              <div>
+                <strong>Research still present</strong>
+                Scientific roles and themes are layered into the page as notebook entries.
+              </div>
+              <div>
+                <strong>Best asset usage</strong>
+                This is the direction that most fully exploits the existing photo library.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="content" id="notebook">
+          <div class="spread">
+            <article class="panel">
+              <h2>Field notebook</h2>
+              <p>
+                This site direction assumes the public story is strongest when it starts with the lived reality of
+                oceanography: ships, deployments, remote platforms, weather, and coordinated campaigns. From there,
+                the page introduces leadership, science themes, and publications.
+              </p>
+              <ul>
+                <li>Principal Investigator for NASA S-MODE</li>
+                <li>U.S. oceanographic lead for SWOT calibration and validation</li>
+                <li>Senior Scientist in WHOI Physical Oceanography</li>
+                <li>Co-PI in the WHOI Upper Ocean Processes Group</li>
+              </ul>
+            </article>
+
+            <div class="note-stack">
+              <aside class="note">
+                <small>Why this works</small>
+                <p>It gives the site a point of view. The present version is informative, but it rarely surprises the visitor.</p>
+              </aside>
+              <aside class="note">
+                <small>Main risk</small>
+                <p>It depends on photography remaining current and curated. Without that upkeep, the atmosphere weakens.</p>
+              </aside>
+              <aside class="note">
+                <small>Best audience</small>
+                <p>Collaborators, students, donors, media, and anyone who should feel the research rather than only parse it.</p>
+              </aside>
+            </div>
+          </div>
+
+          <div class="mosaic" id="photos">
+            <figure class="mosaic-main">
+              <img
+                src="../../material/group_photos/Hodges_rainbow_IMG_4006.jpeg"
+                alt="Researchers on deck beneath a fogbow during S-MODE"
+              />
+            </figure>
+            <div class="mosaic-side">
+              <figure>
+                <img
+                  src="../../material/group_photos/Tom_on_TGT_small_boat_May8_2025.jpg"
+                  alt="Tom Farrar on a small boat with research vessel in the background"
+                />
+              </figure>
+              <figure>
+                <img
+                  src="../../material/group_photos/RAMA_recovery_MISO_2019-IMG_3398.jpg"
+                  alt="RAMA buoy recovery operations at sea"
+                />
+              </figure>
+            </div>
+          </div>
+
+          <div class="quote">
+            <p>
+              The strongest redesign opportunity is to stop treating fieldwork as an extra gallery and start using
+              it as the emotional and visual proof of the science.
+            </p>
+          </div>
+
+          <div class="spread" id="proof">
+            <article class="panel">
+              <h2>What changes structurally</h2>
+              <p>
+                The current homepage is organized as separate cards for biography, research, roles, programs,
+                fieldwork, updates, and contact. This concept replaces that with an editorial spread: one dominant
+                image sequence, a few notebook entries, and a tighter set of calls to action.
+              </p>
+            </article>
+            <article class="panel">
+              <h2>What still needs a real page</h2>
+              <p>
+                Publications would remain a distinct destination, but the homepage would send people there through a
+                small, curated selection instead of exposing the full archive as a wall of citations.
+              </p>
+            </article>
+          </div>
+
+          <section class="strip">
+            <h2>Three evidence frames</h2>
+            <div class="strip-grid">
+              <div>
+                <figure>
+                  <img
+                    src="../../material/group_photos/Wave_Gliders_on_RVOceanus_S-MODE_Pilot_cruise_2021.jpeg"
+                    alt="Wave Gliders on deck during S-MODE"
+                  />
+                </figure>
+                <div class="caption">Autonomous platforms as scientific infrastructure rather than technical side detail.</div>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src="../../material/group_photos/KAUST_buoy_Red_Sea_2009_DSC_0452.JPG"
+                    alt="Research buoy in the Red Sea"
+                  />
+                </figure>
+                <div class="caption">Longer-range observing systems can still fit naturally inside a field-led narrative.</div>
+              </div>
+              <div>
+                <figure>
+                  <img
+                    src="../../material/WG_WHOI1102_IMG_7727.jpg"
+                    alt="Wave Glider staged on deck"
+                  />
+                </figure>
+                <div class="caption">Instrumentation photographs become part of the brand of the site, not supporting clutter.</div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="footer">
+          Concept 3 thesis: turn the site into a field journal with scientific authority, using photography to do
+          the first layer of storytelling.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -91,9 +91,16 @@ def scholar_search_url(citation: str) -> str:
     return f"https://scholar.google.com/scholar?q={quote_plus(cleaned)}"
 
 
+def format_citation_html(citation: str) -> str:
+    safe = html.escape(citation)
+    safe = safe.replace("†", "")
+    safe = re.sub(r"[∗*]", "<sup>∗</sup>", safe)
+    return safe
+
+
 def render_item(pub: dict, number_map: dict[int, str], title_map: list[tuple[str, str]]) -> str:
     citation = pub.get("citation", "").strip()
-    safe_citation = html.escape(citation)
+    safe_citation = format_citation_html(citation)
     number = pub.get("number", "")
     url = (
         number_map.get(int(number))

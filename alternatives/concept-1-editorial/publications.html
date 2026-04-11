@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publications | J. Thomas Farrar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="editorial.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="index.html">J. Thomas Farrar <span>Concept 1 editorial</span></a>
+        <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="research.html">Research</a>
+          <a href="team.html">Team</a>
+          <a class="active" href="publications.html">Publications</a>
+          <a href="photos.html">Photos</a>
+          <a href="../index.html">All Concepts</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero">
+        <span class="eyebrow">Publications</span>
+        <h1>A more legible entry point into the publication record.</h1>
+        <p>
+          The main weakness of the current publications page is density without visual pacing. This version keeps
+          real search behavior, but presents results as readable entries rather than one uninterrupted citation wall.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="pub-toolbar">
+          <input id="pub-search" type="search" placeholder="Search by topic, author, year, or journal" />
+          <div id="pub-count" class="pub-meta">Loading publications...</div>
+        </div>
+        <div id="pub-root" class="pub-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">&copy; <span id="year"></span> J. Thomas Farrar</div>
+    </footer>
+
+    <script src="../../publications-data.js"></script>
+    <script src="app.js"></script>
+    <script src="publications.js"></script>
+  </body>
+</html>

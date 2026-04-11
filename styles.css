@@ -622,6 +622,13 @@ h2 {
   margin: 0;
 }
 
+.pub-legend sup,
+.pub-citation sup {
+  font-size: 0.7em;
+  vertical-align: super;
+  line-height: 0;
+}
+
 .pub-sections {
   display: grid;
   gap: 0.9rem;

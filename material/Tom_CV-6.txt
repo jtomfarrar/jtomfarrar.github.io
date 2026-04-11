@@ -39,7 +39,7 @@ Physics Department, University of Oklahoma.
 
 
 
-Farrar: February 21, 2026                                                                               1/24
+Farrar: April 11, 2026                                                                                  1/24
 Selected Academic and Professional Honors
 2026: NASA Group Achievement Award for the SWOT Cal/Val Field Campaign Team, for “the oceanographic
 validation of measurements from the NASA pathfinder mission SWOT, enabling profound new insights into
@@ -97,7 +97,7 @@ National and International Service Activities
 
 
 
-Farrar: February 21, 2026                                                                                2/24
+Farrar: April 11, 2026                                                                                   2/24
 ○ Member of US CLIVAR Process Study and Model Improvement Panel, 2012-2016
 ○ Member of TPOS-2020 (Tropical Pacific Observing System) Scientific Steering Committee, 2014-present
 ○ Member of NASA Surface Water Ocean Topography Algorithm Development Team steering committee,
@@ -165,7 +165,7 @@ Other Service
   Science Letters, Ocean Dynamics, Journal of Operational Oceanography, Remote Sensing of Environment,
   Oceanography, Scientific Reports, Journal of Atmospheric Sciences, ISPRS Journal of Photogrammetry and
 
-Farrar: February 21, 2026                                                                               3/24
+Farrar: April 11, 2026                                                                                  3/24
   Remote Sensing, Marine Technology Society Journal, Proceedings of the National Academy of Sciences,
   PLOS One, IEEE Geosci. Remote Sensing Lett., Journal of Climate, IEEE Trans. Geosci. Remote Sensing,
   and Bulletin of the American Meteorological Society.
@@ -217,7 +217,7 @@ Undergraduate students advised (internships and summer research projects):
   - Weiguang Roger Wu (summer student from Univ. California San Diego)
   - Steven Akin (guest student project that became his senior capstone project at Angelo State University)
 
-Farrar: February 21, 2026                                                                           4/24
+Farrar: April 11, 2026                                                                              4/24
      - Roland Ovbiebo (guest student from Nigeria)
      - Ersen’S Joseph (internship and Univ. Massachusetts senior capstone project, Department of Mechanical
          Engineering)
@@ -244,42 +244,37 @@ Contribution statements use CRediT Contributor Roles Taxonomy
 ∗ indicates student or postdoc of Farrar; † indicates other student or postdoc. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 Manuscripts in review. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-[1] C. Martin-Blanco† , N. Scapin, J. Wu, S. Popinet, J.T. Farrar, B. Chapron, and L. Deike. Kinematics of
- gravity-capillary waves above an evolving underwater current (revised). Journal of Fluid Mechanics, 2025.
-    Contributions: conceptualization, methodology, review/edit, funding acquisition.
-
-[2] M.S. Solari† , S. Roy, C. Moss, G. Valerio, J. Iungo, J.K. Lundquist, B. Adler, L. Bianco, N. Bodini,
- E. Cinquino, J.T. Farrar, A. Kirincich, R. Krishnamurthy, S. Letizia, T. Myers, P. Muradyan, M. Pekour,
- J. Sedlar, L. Soldo, J. Wilczak, and S.F. Zippel. Observation of the marine atmospheric boundary layer’s
- response to a solar eclipse (submitted). Boundary Layer Meteorology, 2025. Contributions: review/edit,
- field data collection.
-
-[3] N. Paul∗ , M. Mathur, J. Sukhatme, J.T. Farrar, and D. Sengupta. Influx of Bay of Bengal waters and
- stirring trends in the Arabian sea based on satellite altimetry (revised). Geophysical Research Letters, 2025.
-    Contributions: review/edit, funding acquisition.
-
-[4] M.S. Ballard, A. Sanchez-Rios, R.T. Taylor, T.F. Duda, J.T. Farrar, H. Simmons, J.D. Sagers, J. Mackin-
+[1] M.S. Ballard, A. Sanchez-Rios, R.T. Taylor, T.F. Duda, J.T. Farrar, H. Simmons, J.D. Sagers, J. Mackin-
  non, A.J. Lucas, L. Johnson, A. Brakstad, and I. Fer. Hydrographic structure of the upper ocean in the central
  Nordic Seas and implications for acoustic propagation in the 500 to 1500 Hz frequency band (submitted).
  Journal of Geophysical Research: Oceans, 2025. Contributions: review/edit, data collection.
+Peer-reviewed articles. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+[2] M.S. Solari† , S. Roy, C. Moss, G. Valerio, J. Iungo, J.K. Lundquist, B. Adler, L. Bianco, N. Bodini,
+ E. Cinquino, J.T. Farrar, A. Kirincich, R. Krishnamurthy, S. Letizia, T. Myers, P. Muradyan, M. Pekour,
+ J. Sedlar, L. Soldo, J. Wilczak, and S.F. Zippel. Observation of the marine atmospheric boundary layer’s
+ response to a solar eclipse (in press). Boundary Layer Meteorology, 2026. Contributions: review/edit, field
+ data collection.
 
-
-
- Farrar: February 21, 2026                                                                                                                                                                                          5/24
-Peer-reviewed articles. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-[5] T.L. Schlosser, A.J. Lucas, M. Omand, and J.T. Farrar. Monsoons, plumes, and blooms: intraseasonal
+[3] T.L. Schlosser, A.J. Lucas, M. Omand, and J.T. Farrar. Monsoons, plumes, and blooms: intraseasonal
  variability of subsurface primary productivity in the Bay of Bengal. Ocean Science, 22:443–458, 2026.
     Contributions: review/edit, field data collection.
 
-[6] N. Scapin† , J. Wu, J.T. Farrar, B. Chapron, S. Popinet, and L. Deike. Growth rate and energy dissipation
+[4] N. Scapin† , J. Wu, J.T. Farrar, B. Chapron, S. Popinet, and L. Deike. Growth rate and energy dissipation
  in wind-forced breaking waves. Geophysical Research Letters, 53(1):e2025GL117901, 2026. Contributions:
  conceptualization, methodology, review/edit, funding acquisition.
 
+
+ Farrar: April 11, 2026                                                                                                                                                                                              5/24
+[5] N. Paul∗ , M. Mathur, J. Sukhatme, J.T. Farrar, and D. Sengupta. Influx of Bay of Bengal waters and
+ stirring trends in the Arabian sea based on satellite altimetry (accepted). Geophysical Research Letters, 2026.
+    Contributions: supervision, review/edit, funding acquisition.
+[6] C. Martin-Blanco† , N. Scapin, J. Wu, S. Popinet, J.T. Farrar, B. Chapron, and L. Deike. Kinematics of
+ gravity-capillary waves above an evolving underwater current (accepted). Journal of Fluid Mechanics, 2026.
+    Contributions: conceptualization, methodology, review/edit, funding acquisition.
 [7] S. Kerhalkar† , A. Tandon, J.T. Farrar, J.A. MacKinnon, T.L. Schlosser, L. Johnson, A.J. Lucas, V. Hor-
  mann, and L.R. Centurioni. Modulation of diurnal SST and diurnal warm layer variability by salinity-driven
  stratification in the Bay of Bengal. Journal of Physical Oceanography, 56(1):245 – 266, 2026. Contributions:
  review/edit, field data collection.
-
 [8] M.C. Buijsman, A.F. Waterhouse, E.D. Zaron, B. Yadidya, C. Xu, V. Whitley, J.O. Wenegrat, J. Wang, A.J.
  Wallcraft, D. Varma, B.C. Tchonang, O. Siyanbola, J.F. Shriver, V.A. Sheremet, U. Send, K. Raja, K. Polzin,
  H.E. Ngodock, A.J. Moulin, G. Meiners, A.J. Lucas, M. Lankhorst, J.P. Kuehl, S.M. Kelly, Y. Huang,
@@ -287,41 +282,33 @@ Manuscripts in review. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
  and M.A. Abdulfatai. A multi-agency experiment on internal wave energy, mixing, and interactions and their
  representation in global ocean models and operational forecasts. Bulletin of the American Meteorological
  Society, 107(1):E158 – E182, 2026. Contributions: review/edit.
-
 [9] P. Bhuyan† , C.B. Rocha, L. Romero, and J.T. Farrar. Acoustic Doppler current profiler measurements
  from Saildrones with applications to submesoscale studies. Journal of Atmospheric and Oceanic Technology,
  43(2):199 – 212, 2026. Contributions: conceptualization, methodology, review/edit, funding acquisition.
-
-[10] G.S. Bhat, V. Jampana, E.P. Rama Rao, S.S. Prasad, S.S. Kumar, D. Sengupta, M. Ravichandran,
- B.P. Kumar, T.S. Kumar, J.B. Edson, J.T. Farrar, A.R. Suryachandra, M.P. Maheshwar, A. Jayakumar,
- and T.J. Anurose. Year-long eddy covariance surface fluxes from a Bay of Bengal mooring compared with
- operational Monsoon Mission models (accepted). Current Science, 2026. Contributions: conceptualization,
+[10] G.S. Bhat, V. Jampana, E.P. Rama Rao, S.S. Prasad, S.S. Kumar, D. Sengupta, M. Ravichandran, B.P.
+ Kumar, T.S. Kumar, J.B. Edson, J.T. Farrar, A.R. Suryachandra, M.P. Maheshwar, A. Jayakumar, and
+ T.J. Anurose. Year-long eddy covariance surface fluxes from a Bay of Bengal mooring compared with opera-
+ tional Monsoon Mission models. Current Science, 130:415–422, 2026. Contributions: conceptualization,
  methodology, review/edit, field data collection.
-
 [11] J. Wu† , S. Popinet, B. Chapron, J.T. Farrar, and L. Deike. Turbulence and energy dissipation from wave
  breaking. Journal of Physical Oceanography, 55(9):1521 – 1534, 2025. Contributions: review/edit, funding
  acquisition.
-
 [12] J. Wang, A. J. Lucas, S. Stalin, M. Lankhorst, U. Send, O. Schofield, L. Kachelein, B. Haines, C. Meinig,
  R. Pinkel, J.T. Farrar, and L. Fu. SWOT mission validation of sea surface height measurements at sub-100
  km scales. Geophysical Research Letters, 52(11):e2025GL114936, 2025.           Contributions: methodology,
  investigation, review/edit.
-
 [13] N. T. Vinogradova, T. M. Pavelsky, J.T. Farrar, F. Hossain, and L. Fu. A new look at Earth’s water,
  energy, and climate with SWOT. Nature Water, 3:27–37, 2025. Contributions: original text, review/edit.
-
 [14] C. Ubelmann, J.T. Farrar, B. Chapron, L. Gaultier, L. Gomez-Navarro, M.-H. Rio, and G. Dibarboure. A
  data-driven wind-to-current response function and application to ocean surface current estimates. Ocean
  Science, 21(6):2915–2928, 2025. Contributions: conceptualization, methodology, original text, review/edit.
-
 [15] H.S. Torres, A. Wineteer, E. Rodriguez, P. Klein, A.F. Thompson, D. Perkovic-Martin, J. Molemaker,
  D. Hypolite, J. Callies, J.T. Farrar, E. D’Asaro, and M. Freilich. Submesoscale eddy contribution to ocean
-
- Farrar: February 21, 2026                                                                                                                                                                                           6/24
- vertical heat flux diagnosed from airborne observations. Geophysical Research Letters, 52(2):e2024GL112278,
+ vertical heat flux diagnosed from airborne observations. Geophysical Research Letters, 52(2):e2024GL112278,
  2025. Contributions: conceptualization, review/edit, funding acquisition.
 
-[16] J.T. Farrar, E. D’Asaro, E. Rodríguez, A. Shcherbina, L. Lenain, M. Omand, A. Wineteer, P. Bhuyan,
+Farrar: April 11, 2026                                                                                    6/24
+[16] J.T. Farrar, E. D’Asaro, E. Rodríguez, A. Shcherbina, L. Lenain, M. Omand, A. Wineteer, P. Bhuyan,
  F. Bingham, A. B. Villas Boas, E. Czech, J. D’Addezio, M. Freilich, L. Grare, D. Hypolite, G. Jacobs, P. Klein,
  S. Lang, I. M. Leyba, Z. Li, A. Mahadevan, J. McWilliams, D. Menemenlis, L. Middleton, J. Molemaker,
  L. O’Neill, D. Perkovic-Martin, N. Pizzo, L. Rainville, C. Rocha, R. M. Samelson, I. Simoes-Sousa, N. Statom,
@@ -368,54 +355,65 @@ Manuscripts in review. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 [25] L.D. Riihimaki, M. F. Cronin, R. Acharya, N. Anderson, J. Augustine, K. A. Balmes, P. Berk, R. Bozzano,
  A. Bucholz, K. J. Connell, C. J. Cox, A. G. di Sarra, J. Edson, C.W. Fairall, K. J.T. Farrar, Grissom,
  M. T. Guerra, V. Hormann, K. J. Joseph, C. Lanconelli, Meloni D. Melin, F. and, M. Ottaviani, S. Pensieri,
-
-
-Farrar: February 21, 2026                                                                                 7/24
- K. Ramesh, D. Rutan, N. Samarinas, S. R. Smith, S. Swart, A. Tandon, E. J. Thompson, R. Venkatesan,
+ K. Ramesh, D. Rutan, N. Samarinas, S. R. Smith, S. Swart, A. Tandon, E. J. Thompson, R. Venkatesan,
  R. K. Verma, V. Vitale, K. S. Katie S. Watkins-Brandt, R. A. Weller, C. J. Zappa, and D. Zhang. Ocean
- surface radiation measurement best practices. Frontiers in Marine Science, 11, 2024.     Contributions:
+
+
+Farrar: April 11, 2026                                                                                    7/24
+ surface radiation measurement best practices. Frontiers in Marine Science, 11, 2024.           Contributions:
  conceptualization, methodology, review/edit.
+
 [26] L. Fu, T. Pavelsky, J. Cretaux, R. Morrow, J.T. Farrar, P. Vaze, P. Sengenes, N. Vinogradova-Shiffer,
  A. Sylvestre-Baron, N. Picot, and G. Dibarboure. The Surface Water and Ocean Topography mission: A
  breakthrough in radar remote sensing of the ocean and land surface water. Geophysical Research Letters,
  51(4):e2023GL107652, 2024. Contributions: conceptualization, review/edit.
+
 [27] M. A. Freilich, C. Poirier, M. Dever, E. Alou-Font, J. Allen, A. Cabornero, L. Sudek, C. J. Choi, S. Ruiz,
  A. Pascual, T.M. S. J.T. Farrar, Johnston, E. D’Asaro, A. E. Worden, and A. Mahadevan. 3D-intrusions
  transport active surface microbial assemblages to the dark ocean. Proceedings of the National Academy of
  Sciences, 121(19):e2319937121, 2024. Contributions: field data collection, review/edit.
+
 [28] D. Chaudhuri† , D. Sengupta, E. D’Asaro, M. Mathur, S. Ranganathan, and J.T. Farrar. Near-inertial
  response of a salinity-stratified ocean. Journal of Physical Oceanography, 54:1841–1855, 2024. Contributions:
  field data collection, review/edit.
+
 [29] X. Wang† , T. Kukulka, J.T. Farrar, A. Plueddemann, and S. Zippel. Langmuir turbulence controls on
  observed diurnal warm layer depths. Geophysical Research Letters, 50:e2023GL103231, 2023. Contributions:
  field data collection, review/edit.
+
 [30] V.R. Sherin† , M.S. Girishkumar, S. Shivaprasad, N. Sureshkumar, J.T. Farrar, K. Athulya, A. Kuriakose,
  P.R. Rao, D. Sengupta, R. Venkatesan, and M. Ravichandran. Importance of seasonally evolving near-
  surface salinity stratification on mixed layer heat budget during summer monsoon intraseasonal oscillation
  in the northern Bay of Bengal during 2019. Journal of Geophysical Research, 128:e2023JC019800, 2023.
     Contributions: field data collection, review/edit.
+
 [31] U.K. Miller† , C.J. Zappa, S. Zippel, J.T. Farrar, and R.A. Weller. Scaling of moored surface ocean
  turbulence measurements in the southeast Pacific stratus cloud region. Journal of Geophysical Research,
  128:e2022JC018901, 2023. Contributions: field data collection, conceptualization, methodology, software,
  review/edit, funding acquisition.
+
 [32] B. A. Hodges, L. Grare, B. Greenwood, K. Matsuyoshi, N. Pizzo, N. M. Statom, J.T. Farrar, and
  L. Lenain. Evaluation of ocean currents observed from autonomous surface vehicles. Journal of Atmospheric
  and Oceanic Technology, 40(10):1121 – 1136, 2023.         Contributions: conceptualization, methodology,
  review/edit, funding acquisition.
+
 [33] G. Esposito† , S. Donnet, M. Berta, A. Shcherbina, M. Freilich, L. Centurioni, E. D’Asaro, J.T. Farrar,
  T.M.S. Johnston, A. Mahadevan, T. Ozgokmen, A. Pascual, P.-M. Poulain, S. Ruiz, D. Tarry, and A. Griffa.
  Inertial oscillations and frontal instabilities at an Alboran Sea front: Effects on divergence and vertical
  transport. Journal of Geophysical Research, 128(3):e2022JC019004, 2023.           Contributions: field data
  collection, review/edit.
+
 [34] S. Zippel∗ , J.T. Farrar, C.J. Zappa, and A.J. Plueddemann. Parsing the kinetic energy budget of the
  ocean surface mixed layer. Geophysical Research Letters, 49:e2021GL095920, 2022. Contributions: field
  data collection, conceptualization, methodology, review/edit, funding acquisition.
+
 [35] J. Wang, L. Fu, B. Haines, M. Lankhorst, A.J. Lucas, J.T. Farrar, U. Send, C. Meinig, O. Schofield,
  R. Ray, M. Archer, D. Aragon, S. Bigorre, Y. Chao, J. Kerfoot, R. Pinkel, D. Sandwell, and S. Stalin. On
+ the development of SWOT in-situ calibration/validation for short-wavelength ocean topography. Journal of
 
-Farrar: February 21, 2026                                                                                8/24
- the development of SWOT in-situ calibration/validation for short-wavelength ocean topography. Journal of
- Atmospheric and Oceanic Technology, 2022. Contributions: conceptualization, methodology, review/edit,
+
+Farrar: April 11, 2026                                                                                   8/24
+ Atmospheric and Oceanic Technology, 2022.        Contributions: conceptualization, methodology, review/edit,
  project administration.
 
 [36] D. R. Tarry† , S. Ruiz, T. M. Johnston, P.-M. Poulain, T. Özgökmen, L. R. Centurioni, M. Berta,
@@ -464,66 +462,54 @@ Farrar: February 21, 2026                                                       
  onset. Bulletin of the American Meteorological Society, 102:E1936–E1951, 2021. Contributions: field data
  collection, review/edit.
 
-
-
-Farrar: February 21, 2026                                                                                 9/24
-[46] J.T. Farrar, E. D’Asaro, E. Rodriguez, A. Shcherbina, E. Czech, P. Matthias, S. Nicholas, F. Bingham,
+[46] J.T. Farrar, E. D’Asaro, E. Rodriguez, A. Shcherbina, E. Czech, P. Matthias, S. Nicholas, F. Bingham,
  A. Mahedevan, M. Omand, L. Rainville, C. Lee, D. Chelton, R. Samelson, L. O’Neill, L. Lenain, D. Menemenlis,
- D. Perkovic-Martin, P. Mouroulis, M. Gierach, D. Thompson, A. Wineteer, H. Torres, P. Klein, A. Thompson,
+
+Farrar: April 11, 2026                                                                                    9/24
+ D. Perkovic-Martin, P. Mouroulis, M. Gierach, D. Thompson, A. Wineteer, H. Torres, P. Klein, A. Thompson,
  J.C. McWilliams, J. Molemaker, R. Barkan, J. Wenegrat, C. Rocha, G. Jacobs, J. D’Addezio, S. de Halleux,
  and R. Jenkins. S-MODE: The Sub-Mesoscale Ocean Dynamics Experiment. In IGARSS 2020 - 2020 IEEE
  International Geoscience and Remote Sensing Symposium, pages 3533–3536, 2020.
-
 [47] J. Sree Lekha† , A. J. Lucas, J. Sukhatme, J. K. Joseph, M. Ravichandran, N. Suresh Kumar, J.T. Farrar,
  and D. Sengupta. Quasi-biweekly mode of the Asian summer monsoon revealed in Bay of Bengal surface
  observations. Journal of Geophysical Research: Oceans, 125:e2020JC016271, 2020. Contributions: field
  data collection, review/edit.
-
 [48] G. Spiro Jaeger† , J. MacKinnon, A.J. Lucas, E. Shroyer, J. Nash, A. Tandon, J.T. Farrar, and
  A. Mahadevan. How spice is stirred in the Bay of Bengal. Journal of Physical Oceanography, 50:2669–2688,
  2020. Contributions: field data collection, review/edit.
-
 [49] M. Schlundt∗ , J.T. Farrar, S.P. Bigorre, A.J. Plueddemann, and R.A. Weller. Accuracy of wind
  observations from open-ocean buoys: Correction for flow distortion. Journal of Atmospheric and Oceanic
  Technology, 37:687–703, 2020.         Contributions: field data collection, conceptualization, methodology,
  software, review/edit, supervision, project administration, funding acquisition.
-
 [50] C.L. Gentemann, C.A. Clayson, S. Brown, T. Lee, R. Parfitt, J.T. Farrar, M. Bourassa, P.J. Minnett,
  H. Seo, S.T. Gille, and V. Zlotnicki. FluxSat: Measuring the ocean–atmosphere turbulent exchange of heat
  and moisture from space. Remote Sensing, 12:1796, 2020. Contributions: conceptualization, original text,
  review/edit.
-
 [51] T. S. Durland and J.T. Farrar. Another note on Rossby wave energy flux. Journal of Physical
  Oceanography, 50:531–534, 2020. Contributions: conceptualization, review/edit, funding acquisition.
-
 [52] M. Dever† , M. Freilich, J.T. Farrar, B. Hodges, T. Lanagan, and A. Mahadevan. EcoCTD for profiling
  oceanic physical-biological properties from an underway ship. Journal of Atmospheric and Oceanic Technology,
  37:825—-840, 2020. Contributions: conceptualization, methodology, review/edit, funding acquisition.
-
 [53] D. Zhang, M.F. Cronin, C. Meinig, J.T. Farrar, R. Jenkins, D. Peacock, J. Keene, and A. Sutton.
  Comparing air-sea flux measurements from a new unmanned surface vehicle and proven platforms during
  the SPURS-2 field campaign. Oceanography, 32(2):122–133, 2019. Contributions: field data collection,
  conceptualization, review/edit.
-
 [54] R. A. Weller, J.T. Farrar, H. Seo, C. Prend, D. Sengupta, J. Sree Lekha, M. Ravichandran, and
  R. Venkatesen. Moored observations of the surface meteorology and air-sea fluxes in the northern Bay
  of Bengal in 2015. Journal of Climate, 32(2):549–573, 2019.             Contributions: field data collection,
  conceptualization, review/edit, supervision, project administration, funding acquisition.
-
 [55] A.B. Villas Boas† , F. Ardhuin, A. Ayet, M. Bourassa, B. Chapron, P. Brandt, B.D. Cornuelle, J.T. Farrar,
  M.R. Fewings, B. Fox-Kemper, S.T. Gille, C. Gommenginger, P. Heimbach, M.C. Hell, Q. Li, M. Mazloff,
  S.T. Merrifield, A. Mouche, M. Rio, E. Rodriguez, J.D. Shutler, A.C. Subramanian, E.J. Terrill, M. Tsamados,
  C. Ubelmann, and E. van Sebille. Integrated observations and modeling of winds, currents, and waves:
  requirements and challenges for the next decade. Frontiers in Marine Science, 6:425, 2019. Contributions:
  review/edit, original text.
-
-
-Farrar: February 21, 2026                                                                               10/24
-[56] R. Thakur, E. Shroyer, R. Govindarajan, J.T. Farrar, R.A. Weller, and J. Moum. Seasonality and
+[56] R. Thakur, E. Shroyer, R. Govindarajan, J.T. Farrar, R.A. Weller, and J. Moum. Seasonality and
  buoyancy suppression of turbulence in the Bay of Bengal. Geophysical Research Letters, 46(8):4346–4355,
  2019. Contributions: field data collection, conceptualization, review/edit.
 
-[57] J.T. Farrar and A. J. Plueddemann. On the factors driving upper-ocean salinity variability at the western
+Farrar: April 11, 2026                                                                                  10/24
+[57] J.T. Farrar and A. J. Plueddemann. On the factors driving upper-ocean salinity variability at the western
  edge of the Eastern Pacific Fresh Pool. Oceanography, 32(2):30–39, 2019.
 
 [58] E.L. Shroyer, A.L. Gordon, G. Spiro Jaeger, M. Freilich, A.F. Waterhouse, J.T. Farrar, V.V.S.S. Sarma,
@@ -569,17 +555,16 @@ Farrar: February 21, 2026                                                       
 
 [67] S.R. Davis∗ , J.T. Farrar, R.A. Weller, H. Jiang, and L. Pratt. The land-sea breeze of the Red Sea:
  Observations, simulations, and relationships to regional moisture transport. Journal of Geophysical Research:
-
-
-Farrar: February 21, 2026                                                                                  11/24
- Atmospheres, 14:13803—-13825, 2019. Contributions: field data collection, conceptualization, methodology,
+ Atmospheres, 14:13803—-13825, 2019. Contributions: field data collection, conceptualization, methodology,
  software, review/edit, supervision, project administration, funding acquisition.
 
 [68] M.F. Cronin, C.L. Gentemann, J.B. Edson, I. Ueki, M. Bourassa, S. Brown, C.A. Clayson, C. Fairall, J.T.
  Farrar, S.T. Gille, S. Gulev, S. Josey, S. Kato, M. Katsumata, E.C. Kent, M. Krug, P.J. Minnett, R. Parfitt,
- R.T. Pinker, P.W. Stackhouse, S. Swart, H. Tomita, D. Vandemark, R.A. Weller, K. Yoneyama, L. Yu, and
+
+Farrar: April 11, 2026                                                                                     11/24
+ R.T. Pinker, P.W. Stackhouse, S. Swart, H. Tomita, D. Vandemark, R.A. Weller, K. Yoneyama, L. Yu, and
  D. Zhang. Air-sea fluxes with a focus on heat and momentum. Frontiers in Marine Science, 6:430, 2019.
-    Contributions: review/edit.
+   Contributions: review/edit.
 
 [69] D. B Chelton, M. G. Schlax, R. M. Samelson, J.T. Farrar, M. J. Molemaker, J. C. McWilliams, and
  J. Gula. Prospects for future satellite estimation of small-scale variability of ocean surface velocity and
@@ -622,14 +607,15 @@ Farrar: February 21, 2026                                                       
  Ocean and Land Surfaces. CRC Press, Taylor and Francis Group, 2018. Contributions: conceptualization,
  review/edit, original text.
 
-
-
-Farrar: February 21, 2026                                                                                  12/24
-[78] R. J. Greatbatch, M. Claus, P. Brandt, J.-D. Matthießen, F. P. Tuchen, F. Ascani, M. Dengler, J. Toole,
+[78] R. J. Greatbatch, M. Claus, P. Brandt, J.-D. Matthießen, F. P. Tuchen, F. Ascani, M. Dengler, J. Toole,
  C. Roth, and J.T. Farrar. Evidence for the maintenance of slowly varying equatorial currents by intraseasonal
  variability. Geophysical Research Letters, 45, 2018. Contributions: review/edit.
 
-[79] B. K. Arbic and coauthors. A primer on global internal tide and internal gravity wave continuum modeling
+
+
+
+Farrar: April 11, 2026                                                                                     12/24
+[79] B. K. Arbic and coauthors. A primer on global internal tide and internal gravity wave continuum modeling
  in hycom and mitgcm. In E. Chassignet, A. Pascual, J. Tintore,́ and J. Verron, editors, New Frontiers in
  Operational Oceanography, pages 307–391. GODAE OceanView, 2018. Contributions: review/edit.
 
@@ -674,15 +660,14 @@ Farrar: February 21, 2026                                                       
  Kumar, and B. P. Kumar. Air-sea interaction in the Bay of Bengal. Oceanography, 29(2):28–37, 2016.
     Contributions: field data collection, review/edit.
 
-
-
-Farrar: February 21, 2026                                                                                 13/24
-[87] V. P. Thangaprakash, M. S. Girishkumar, A. Suprit, N. S. Kumar, D. Chaudhuri, K. Dinesh, A. Kumar,
+[87] V. P. Thangaprakash, M. S. Girishkumar, A. Suprit, N. S. Kumar, D. Chaudhuri, K. Dinesh, A. Kumar,
  S. Shivaprasad, M. Ravichandran, J.T. Farrar, R. Sundar, and R. A. Weller. What controls seasonal evolution
  of sea surface temperature in the Bay of Bengal? Oceanography, 29(2):202–213, 2016. Contributions:
  field data collection, review/edit.
 
-[88] E. L. Shroyer, D. L. Rudnick, J.T. Farrar, B. Lim, S. K. Venayagamoorthy, L. C. St Laurent, A. Garanaik,
+
+Farrar: April 11, 2026                                                                                    13/24
+[88] E. L. Shroyer, D. L. Rudnick, J.T. Farrar, B. Lim, S. K. Venayagamoorthy, L. C. St Laurent, A. Garanaik,
  and J. N. Moum. Modification of upper-ocean temperature structure by subsurface mixing in the presence
  of strong salinity stratification. Oceanography, 29(2):62–71, 2016. Contributions: field data collection,
  review/edit.
@@ -729,12 +714,13 @@ Farrar: February 21, 2026                                                       
  Continental Shelf Research, 78:51–61, 2014.      Contributions: field data collection, review/edit, project
  administration.
 
-Farrar: February 21, 2026                                                                                14/24
-[99] D. K. Ralston, H. Jiang, and J.T. Farrar. Waves in the Red Sea: response to monsoonal and mountain gap
+[99] D. K. Ralston, H. Jiang, and J.T. Farrar. Waves in the Red Sea: response to monsoonal and mountain gap
  winds. Continental Shelf Research, 65:1–13, 2013. Contributions: field data collection, visualization/analysis
  of satellite data, review/edit.
 
-[100] J. Prytherch∗ , J.T. Farrar, and R. A. Weller. Moored surface buoy observations of the diurnal warm
+
+Farrar: April 11, 2026                                                                                    14/24
+[100] J. Prytherch∗ , J.T. Farrar, and R. A. Weller. Moored surface buoy observations of the diurnal warm
  layer. Journal of Geophysical Research: Oceans, 118(9):4553–4569, 2013.              Contributions: field data
  collection, conceptualization, methodology, software, review/edit, supervision, project administration, funding
  acquisition.
@@ -782,11 +768,13 @@ Farrar: February 21, 2026                                                       
  to near-surface flow: straining the cool skin layer. Journal of physical oceanography, 39(11):2685–2710, 2009.
    Contributions: conceptualization, methodology, review/edit, supervision.
 
-Farrar: February 21, 2026                                                                                  15/24
-[112] H. Jiang, J.T. Farrar, R. C. Beardsley, R. Chen, and C. Chen. Zonal surface wind jets across
+[112] H. Jiang, J.T. Farrar, R. C. Beardsley, R. Chen, and C. Chen. Zonal surface wind jets across
  the Red Sea due to mountain gap forcing along both sides of the Red Sea. Geophys. Res. Lett.,
- 36(L19605):doi:10.1029/2009GL040008, 2009.      Contributions: field data collection, conceptualization,
- review/edit.
+
+
+Farrar: April 11, 2026                                                                                     15/24
+  36(L19605):doi:10.1029/2009GL040008, 2009.                                                                  Contributions: field data collection, conceptualization,
+  review/edit.
 
 [113] J.T. Farrar. Observations of the dispersion characteristics and meridional sea level structure of equatorial
  waves in the Pacific Ocean. J. Phys. Oceanogr., 38:1669–1689, 2008.
@@ -806,7 +794,7 @@ Farrar: February 21, 2026                                                       
  methodology, software, review/edit, formal analysis.
 Other publications. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 [118] J.T. Farrar, D. Sarkar, C. Begouen Demeaux, J. O. Hyde, E. Joseph, L. Grare, L. Lenain, C. Schmidgall,
- J. Sprintall, and A. Chase. 2025 EKAMSAT cruise TN-444A (leg 1) cruise report. Technical report, Woods
+ J. Sprintall, and A. Chase. 2025 EKAMSAT cruise TN-444A (Leg 1) cruise report. Technical report, Woods
  Hole Oceanographic Institution, https://doi.org/10.1575/1912/71909, 2025.
 
 [119] E. Westbrook, F. M. Bingham, S. Brodnitz, J.T. Farrar, E. Rodriguez, and C. Zappa. Submesoscale
@@ -833,13 +821,12 @@ Other publications. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
  observations from the CALYPSO Pilot Experiment (2018): Cruise and data report. Technical report, Woods
  Hole Oceanographic Institution, WHOI-2019-01, 2019.
 
-
-
- Farrar: February 21, 2026                                                                                                                                                                                               16/24
-[125] J. Sprintall, M. Cronin, and J.T. Farrar. Upper ocean vertical structure. In J. K. Cochran, H. Bokuniewicz,
+[125] J. Sprintall, M. Cronin, and J.T. Farrar. Upper ocean vertical structure. In J. K. Cochran, H. Bokuniewicz,
  and P. Yager, editors, Encyclopedia of Ocean Sciences, Third Edition. Elsevier, 2019.
 
-[126] R. Trask and J.T. Farrar. Near real-time data recovery from oceanographic moorings. In R. Venkatesan,
+
+ Farrar: April 11, 2026                                                                                                                                                                                                  16/24
+[126] R. Trask and J.T. Farrar. Near real-time data recovery from oceanographic moorings. In R. Venkatesan,
  A. Tandon, E. D’Asaro, and M. Atmanand, editors, Observing the Oceans in Real Time. Springer, 2018.
 
 [127] J.T. Farrar, B.A. Hodges, S.P. Bigorre, N.R. Galbraith, J.B. Girton, and Y. Chao. UCTD and EM/APEX
@@ -887,11 +874,12 @@ Other publications. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
  ninth setting of the stratus ocean reference station & vocals regional experiment. Technical report, Woods
  Hole Oceanographic Institution, 2009-03, 2009.
 
-
-Farrar: February 21, 2026                                                                                  17/24
-[137] S. Whelan, J. Lord, C. Grados, L. Yu, L. Morales, N. Galbraith, S. deSoeke, M. O’Leary, R. Weller,
+[137] S. Whelan, J. Lord, C. Grados, L. Yu, L. Morales, N. Galbraith, S. deSoeke, M. O’Leary, R. Weller,
  P. Bouchard, J.T. Farrar, , and F. Bradley. Stratus ocean reference station (20 s, 85 w) mooring recovery and
- deployment cruise stratus 8 r/v ronald h. brown cruise 07-09 october 9, 2007–november 6, 2007. Technical
+
+
+Farrar: April 11, 2026                                                                                  17/24
+ deployment cruise stratus 8 r/v ronald h. brown cruise 07-09 october 9, 2007–november 6, 2007. Technical
  report, Woods Hole Oceanographic Institution, 2008-01, 2007.
 
 [138] Farrar, J.T. Air-sea interaction at contrasting sites in the eastern tropical Pacific: Mesoscale variability
@@ -933,13 +921,12 @@ eastern Pacific. NOAA Climate Prediction Program for the Americas PI Meeting, Au
 Farrar, J.T. and Weller, R.A. The relationship between oceanic mesoscale motions and atmospheric convection
 on 10◦ N in the eastern tropical Pacific Ocean. EOS Trans. AGU, 87 (52), Fall Meet. Suppl., Abstract OS51E-06.
 2006.
-
-
-
-Farrar: February 21, 2026                                                                                   18/24
-Weller, R.A., Farrar, J.T., Zappa, C.J., and Jessup, A.T. Sea surface temperature signatures of oceanic
+Weller, R.A., Farrar, J.T., Zappa, C.J., and Jessup, A.T. Sea surface temperature signatures of oceanic
 internal waves in low winds. EOS Trans. AGU, 87 (52), Fall Meet. Suppl., Abstract OS43D-07. 2006.
-Farrar, J.T. Observations of the dispersion characteristics and meridional sea-level structure of Pacific
+
+
+Farrar: April 11, 2026                                                                                      18/24
+Farrar, J.T. Observations of the dispersion characteristics and meridional sea-level structure of Pacific
 equatorial waves. Ocean Sciences Meeting Abstract Book, p. 121. 2008.
 Farrar, J.T. Air-sea exchange in the Red Sea: the role of coastal processes. Gordon Research Conference on
 Coastal Ocean Circulation, New London, NH. 2009. (Invited)
@@ -980,11 +967,12 @@ Farrar, J.T., O’Neill, L., Schneider, N. Seo, H., and Durland, T. Scale depend
 what are we missing?, NASA Ocean Vector Wind Science Team Meeting, La Jolla, CA, May 2017.
 Farrar, J.T., Weller, R., Mathew, S. Buckley, J., Venkatesan, R., Sree Lekha, Dipanjan Chaudhuri, Suresh
 Kumar, Praveen Kumar, Thangaprakash, V.P., Ravichandran, M., and Sengupta, D. Mooring measurements
-
-Farrar: February 21, 2026                                                                               19/24
-of air-sea interaction in northern Bay of Bengal. July 2016, Indian Institute of Tropical Meteorology, Pune,
+of air-sea interaction in northern Bay of Bengal. July 2016, Indian Institute of Tropical Meteorology, Pune,
 India, at “Discussion Meeting on Probable Collaborations on BoB Air-Sea interactions”.
-Farrar, J.T., Samelson, R.M., Savage, A., Arbic, B., and Chelton, D.B. Moored time series and frequency-
+
+
+Farrar: April 11, 2026                                                                                  19/24
+Farrar, J.T., Samelson, R.M., Savage, A., Arbic, B., and Chelton, D.B. Moored time series and frequency-
 wavenumber spectra. NASA SWOT Science Team Meeting, July 2017, Toulouse, France.
 Farrar, J.T., Fu, L., Morrow, R., Drushka, K., Rainville, L., d’Ovidio, F., Chao, Y., and Girton, J. SWOT
 science oceanographic field campaigns. NASA SWOT Cal/Val Workshop, July 2017, Toulouse, France.
@@ -1024,12 +1012,12 @@ Farrar, J.T. Questions About The Global Distribution of Eddy Kinetic Energy. Gor
 on Ocean Mixing, South Hadley, MA, 2022. (Invited)
 Farrar, J.T. Observations of equatorial waves in all three tropical oceans. International Symposium on
 Geophysical Flows, Indian Inst. Of Technology, Madras, August 2022, 2022. (Invited)
-
-
-Farrar: February 21, 2026                                                                                 20/24
-Farrar, J.T. The Sub-Mesoscale Ocean Dynamics Experiment (S-MODE). FilaChange (international conference
+Farrar, J.T. The Sub-Mesoscale Ocean Dynamics Experiment (S-MODE). FilaChange (international conference
 on ocean processes linking filaments and fine scales with climate change), Providence, RI, 2022. (Invited)
-Farrar, J.T. S-MODE and SWOT. Ocean Sciences Meeting, New Orleans, LA, February 2024.
+
+
+Farrar: April 11, 2026                                                                                    20/24
+Farrar, J.T. S-MODE and SWOT. Ocean Sciences Meeting, New Orleans, LA, February 2024.
 Farrar, J.T. Ocean surface current measurements in the Sub-Mesoscale Ocean Dynamics Experiment (S-
 MODE). IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece, 2024.
 Farrar, J.T. and coauthors, Ocean surface current measurements in the Sub-Mesoscale Ocean Dynamics
@@ -1069,12 +1057,12 @@ of equatorial waves in the Pacific Ocean: Dispersion characteristics, meridional
 previously unobserved wave mode.
 November 2007 (Invited): Oregon State University, Physical Oceanography Seminar. Observations of the
 dispersion characteristics and meridional sea-level structure of equatorial waves in the Pacific Ocean.
-
-
-Farrar: February 21, 2026                                                                               21/24
-November 2007: Oregon State University, Joint Physical Oceanography and Atmospheric Sciences Seminar.
+November 2007: Oregon State University, Joint Physical Oceanography and Atmospheric Sciences Seminar.
 Oceanic mesoscale variability and atmospheric convection on 10◦ N in the eastern Pacific.
-April 2008: Woods Hole Oceanographic Institution, Physical Oceanography Seminar. Equatorial and tropical
+
+
+Farrar: April 11, 2026                                                                                  21/24
+April 2008: Woods Hole Oceanographic Institution, Physical Oceanography Seminar. Equatorial and tropical
 instability waves: synthesis and new observations.
 June 2008: Oregon State University, Physical Oceanography Seminar. Equatorial and tropical instability
 waves: synthesis and new observations.
@@ -1114,12 +1102,12 @@ dynamics using measurements from water, air, and space.
 February 2019 (Invited): New York University Courant Institute of Mathematical Sciences. Long-range
 Rossby wave radiation from an unstable ocean current.
 March 2019: Cornell University, Atmospheric Sciences Seminar. Long-range Rossby wave radiation from an
-
-
-Farrar: February 21, 2026                                                                              22/24
-unstable ocean current.
+unstable ocean current.
 November 2019: Cornell University, Atmospheric Sciences Seminar. New observations of equatorial waves.
-April 2021: Scripps Institution of Oceanography, SWOT Interest Group Seminar (virtual). Rossby wave
+
+
+Farrar: April 11, 2026                                                                                 22/24
+April 2021: Scripps Institution of Oceanography, SWOT Interest Group Seminar (virtual). Rossby wave
 interference patterns and patchy SSH variance.
 September 2021 (Invited): Oregon State University, Physical Oceanography Seminar. Remote effects of an
 unstable ocean current.
@@ -1159,12 +1147,12 @@ CTD sampling.
 cruise, SETE3 (tug) and SETE30 (barge); Durrat, Saudi Arabia to Durrat, Saudi Arabia (Red Sea).
 2008: Chief Scientist for King Abdullah University for Science and Technology mooring deployment cruise,
 RV Oceanus; Jeddah, Saudi Arabia to Jeddah, Saudi Arabia.
-
-
-Farrar: February 21, 2026                                                                              23/24
-2008: Northern Tropical Atlantic Station mooring turnaround cruise, RV Oceanus; Woods Hole, MA to
+2008: Northern Tropical Atlantic Station mooring turnaround cruise, RV Oceanus; Woods Hole, MA to
 Barbados.
-2007: CLIMODE and wave-measurement test mooring recovery cruise, RV Oceanus (Co-PI with Robert
+
+
+Farrar: April 11, 2026                                                                                 23/24
+2007: CLIMODE and wave-measurement test mooring recovery cruise, RV Oceanus (Co-PI with Robert
 Weller). Participation in planning and execution of a dragging operation to retrieve remnants of a mooring
 that had previously failed in the Gulf Stream.
 2007: Chief Scientist for Wave-measurement Test Mooring deployment cruise, RV Oceanus; coastal waters
@@ -1177,5 +1165,5 @@ release and microstructure sampling.
 
 
 
-Farrar: February 21, 2026                                                                              24/24
+Farrar: April 11, 2026                                                                                 24/24
 

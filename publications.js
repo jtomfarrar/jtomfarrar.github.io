@@ -420,6 +420,19 @@ function buildScholarSearchUrl(citation) {
   return `https://scholar.google.com/scholar?q=${encodeURIComponent(cleaned)}`;
 }
 
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function formatCitationHtml(citation) {
+  return escapeHtml(citation).replace(/†/g, '').replace(/[∗*]/g, '<sup>∗</sup>');
+}
+
 function toItem(p) {
   const item = document.createElement('article');
   item.className = 'pub-item';
@@ -432,7 +445,7 @@ function toItem(p) {
 
   const citation = document.createElement('p');
   citation.className = 'pub-citation';
-  citation.textContent = `[${p.number}] ${p.citation}`;
+  citation.innerHTML = `[${p.number}] ${formatCitationHtml(p.citation)}`;
 
   if (primaryUrl) {
     const primary = document.createElement('a');
