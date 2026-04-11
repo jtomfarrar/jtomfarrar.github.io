@@ -122,7 +122,7 @@ window.CV_PUBLICATIONS = [
   {
     "number": 25,
     "section": "peer",
-    "citation": "L.D. Riihimaki, M. F. Cronin, R. Acharya, N. Anderson, J. Augustine, K. A. Balmes, P. Berk, R. Bozzano, A. Bucholz, K. J. Connell, C. J. Cox, A. G. di Sarra, J. Edson, C.W. Fairall, K. J.T. Farrar, Grissom, M. T. Guerra, V. Hormann, K. J. Joseph, C. Lanconelli, Meloni D. Melin, F. and, M. Ottaviani, S. Pensieri, K. Ramesh, D. Rutan, N. Samarinas, S. R. Smith, S. Swart, A. Tandon, E. J. Thompson, R. Venkatesan, R. K. Verma, V. Vitale, K. S. Katie S. Watkins-Brandt, R. A. Weller, C. J. Zappa, and D. Zhang. Ocean Farrar: April 11, 2026 7/24 surface radiation measurement best practices. Frontiers in Marine Science, 11, 2024."
+    "citation": "L.D. Riihimaki, M. F. Cronin, R. Acharya, N. Anderson, J. Augustine, K. A. Balmes, P. Berk, R. Bozzano, A. Bucholz, K. J. Connell, C. J. Cox, A. G. di Sarra, J. Edson, C.W. Fairall, K. J.T. Farrar, Grissom, M. T. Guerra, V. Hormann, K. J. Joseph, C. Lanconelli, Meloni D. Melin, F. and, M. Ottaviani, S. Pensieri, K. Ramesh, D. Rutan, N. Samarinas, S. R. Smith, S. Swart, A. Tandon, E. J. Thompson, R. Venkatesan, R. K. Verma, V. Vitale, K. S. Katie S. Watkins-Brandt, R. A. Weller, C. J. Zappa, and D. Zhang. Ocean surface radiation measurement best practices. Frontiers in Marine Science, 11, 2024."
   },
   {
     "number": 26,
@@ -172,7 +172,7 @@ window.CV_PUBLICATIONS = [
   {
     "number": 35,
     "section": "peer",
-    "citation": "J. Wang, L. Fu, B. Haines, M. Lankhorst, A.J. Lucas, J.T. Farrar, U. Send, C. Meinig, O. Schofield, R. Ray, M. Archer, D. Aragon, S. Bigorre, Y. Chao, J. Kerfoot, R. Pinkel, D. Sandwell, and S. Stalin. On the development of SWOT in-situ calibration/validation for short-wavelength ocean topography. Journal of Farrar: April 11, 2026 8/24 Atmospheric and Oceanic Technology, 2022."
+    "citation": "J. Wang, L. Fu, B. Haines, M. Lankhorst, A.J. Lucas, J.T. Farrar, U. Send, C. Meinig, O. Schofield, R. Ray, M. Archer, D. Aragon, S. Bigorre, Y. Chao, J. Kerfoot, R. Pinkel, D. Sandwell, and S. Stalin. On the development of SWOT in-situ calibration/validation for short-wavelength ocean topography. Journal of Atmospheric and Oceanic Technology, 2022."
   },
   {
     "number": 36,
@@ -227,7 +227,7 @@ window.CV_PUBLICATIONS = [
   {
     "number": 46,
     "section": "peer",
-    "citation": "J.T. Farrar, E. D’Asaro, E. Rodriguez, A. Shcherbina, E. Czech, P. Matthias, S. Nicholas, F. Bingham, A. Mahedevan, M. Omand, L. Rainville, C. Lee, D. Chelton, R. Samelson, L. O’Neill, L. Lenain, D. Menemenlis, Farrar: April 11, 2026 9/24 D. Perkovic-Martin, P. Mouroulis, M. Gierach, D. Thompson, A. Wineteer, H. Torres, P. Klein, A. Thompson, J.C. McWilliams, J. Molemaker, R. Barkan, J. Wenegrat, C. Rocha, G. Jacobs, J. D’Addezio, S. de Halleux, and R. Jenkins. S-MODE: The Sub-Mesoscale Ocean Dynamics Experiment. In IGARSS 2020 - 2020 IEEE International Geoscience and Remote Sensing Symposium, pages 3533–3536, 2020."
+    "citation": "J.T. Farrar, E. D’Asaro, E. Rodriguez, A. Shcherbina, E. Czech, P. Matthias, S. Nicholas, F. Bingham, A. Mahedevan, M. Omand, L. Rainville, C. Lee, D. Chelton, R. Samelson, L. O’Neill, L. Lenain, D. Menemenlis, D. Perkovic-Martin, P. Mouroulis, M. Gierach, D. Thompson, A. Wineteer, H. Torres, P. Klein, A. Thompson, J.C. McWilliams, J. Molemaker, R. Barkan, J. Wenegrat, C. Rocha, G. Jacobs, J. D’Addezio, S. de Halleux, and R. Jenkins. S-MODE: The Sub-Mesoscale Ocean Dynamics Experiment. In IGARSS 2020 - 2020 IEEE International Geoscience and Remote Sensing Symposium, pages 3533–3536, 2020."
   },
   {
     "number": 47,
@@ -337,7 +337,7 @@ window.CV_PUBLICATIONS = [
   {
     "number": 68,
     "section": "peer",
-    "citation": "M.F. Cronin, C.L. Gentemann, J.B. Edson, I. Ueki, M. Bourassa, S. Brown, C.A. Clayson, C. Fairall, J.T. Farrar, S.T. Gille, S. Gulev, S. Josey, S. Kato, M. Katsumata, E.C. Kent, M. Krug, P.J. Minnett, R. Parfitt, Farrar: April 11, 2026 11/24 R.T. Pinker, P.W. Stackhouse, S. Swart, H. Tomita, D. Vandemark, R.A. Weller, K. Yoneyama, L. Yu, and D. Zhang. Air-sea fluxes with a focus on heat and momentum. Frontiers in Marine Science, 6:430, 2019."
+    "citation": "M.F. Cronin, C.L. Gentemann, J.B. Edson, I. Ueki, M. Bourassa, S. Brown, C.A. Clayson, C. Fairall, J.T. Farrar, S.T. Gille, S. Gulev, S. Josey, S. Kato, M. Katsumata, E.C. Kent, M. Krug, P.J. Minnett, R. Parfitt, R.T. Pinker, P.W. Stackhouse, S. Swart, H. Tomita, D. Vandemark, R.A. Weller, K. Yoneyama, L. Yu, and D. Zhang. Air-sea fluxes with a focus on heat and momentum. Frontiers in Marine Science, 6:430, 2019."
   },
   {
     "number": 69,
@@ -557,7 +557,7 @@ window.CV_PUBLICATIONS = [
   {
     "number": 112,
     "section": "peer",
-    "citation": "H. Jiang, J.T. Farrar, R. C. Beardsley, R. Chen, and C. Chen. Zonal surface wind jets across the Red Sea due to mountain gap forcing along both sides of the Red Sea. Geophys. Res. Lett., Farrar: April 11, 2026 15/24 36(L19605):doi:10.1029/2009GL040008, 2009."
+    "citation": "H. Jiang, J.T. Farrar, R. C. Beardsley, R. Chen, and C. Chen. Zonal surface wind jets across the Red Sea due to mountain gap forcing along both sides of the Red Sea. Geophys. Res. Lett., 36(L19605):doi:10.1029/2009GL040008, 2009."
   },
   {
     "number": 113,
@@ -622,7 +622,7 @@ window.CV_PUBLICATIONS = [
   {
     "number": 125,
     "section": "other",
-    "citation": "J. Sprintall, M. Cronin, and J.T. Farrar. Upper ocean vertical structure. In J. K. Cochran, H. Bokuniewicz, and P. Yager, editors, Encyclopedia of Ocean Sciences, Third Edition. Elsevier, 2019. Farrar: April 11, 2026 16/24"
+    "citation": "J. Sprintall, M. Cronin, and J.T. Farrar. Upper ocean vertical structure. In J. K. Cochran, H. Bokuniewicz, and P. Yager, editors, Encyclopedia of Ocean Sciences, Third Edition. Elsevier, 2019."
   },
   {
     "number": 126,
@@ -682,7 +682,7 @@ window.CV_PUBLICATIONS = [
   {
     "number": 137,
     "section": "other",
-    "citation": "S. Whelan, J. Lord, C. Grados, L. Yu, L. Morales, N. Galbraith, S. deSoeke, M. O’Leary, R. Weller, P. Bouchard, J.T. Farrar,, and F. Bradley. Stratus ocean reference station (20 s, 85 w) mooring recovery and Farrar: April 11, 2026 17/24 deployment cruise stratus 8 r/v ronald h. brown cruise 07-09 october 9, 2007–november 6, 2007. Technical report, Woods Hole Oceanographic Institution, 2008-01, 2007."
+    "citation": "S. Whelan, J. Lord, C. Grados, L. Yu, L. Morales, N. Galbraith, S. deSoeke, M. O’Leary, R. Weller, P. Bouchard, J.T. Farrar,, and F. Bradley. Stratus ocean reference station (20 s, 85 w) mooring recovery and deployment cruise stratus 8 r/v ronald h. brown cruise 07-09 october 9, 2007–november 6, 2007. Technical report, Woods Hole Oceanographic Institution, 2008-01, 2007."
   },
   {
     "number": 138,

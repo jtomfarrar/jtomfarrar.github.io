@@ -310,7 +310,11 @@ const DIRECT_LINKS_BY_NUMBER = {
 };
 
 function normalizeLine(line) {
-  return line.replace(/\u000c/g, '').trim();
+  return line
+    .replace(/\u000c/g, ' ')
+    .replace(/Farrar:\s+[A-Za-z]+\s+\d{1,2},\s+\d{4}\s+\d+\/\d+/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function detectSection(line, current) {
@@ -349,7 +353,7 @@ function parseCvPublications(text) {
     const line = normalizeLine(raw);
     if (!line) continue;
     if (/^Conference\s*&\s*Workshop\s*Presentations/i.test(line)) break;
-    if (/^Farrar:\s+February/i.test(line) || /^\d+\/24$/.test(line)) continue;
+    if (/^\d+\/\d+$/.test(line)) continue;
 
     currentSection = detectSection(line, currentSection);
 
@@ -429,8 +433,39 @@ function escapeHtml(text) {
     .replace(/'/g, '&#39;');
 }
 
-function formatCitationHtml(citation) {
-  return escapeHtml(citation).replace(/†/g, '').replace(/[∗*]/g, '<sup>∗</sup>');
+function looksLikeAuthorSegment(segment) {
+  const text = segment.trim();
+  if (!text) return true;
+  if (text.includes(',')) return text.split(/\s+/).length <= 4;
+
+  const words = text.split(/\s+/);
+  if (words.length <= 2 && words.every((word) => /^[A-Z][A-Za-z'’-]*$/.test(word))) {
+    return true;
+  }
+
+  return false;
+}
+
+function buildLinkedCitationHtml(citation, url) {
+  const parts = citation.split('. ');
+  let html = escapeHtml(citation);
+
+  if (url) {
+    const titleIndex = parts.findIndex(
+      (part, index) =>
+        index > 0 &&
+        !looksLikeAuthorSegment(part) &&
+        part.trim().split(/\s+/).length >= 4
+    );
+
+    if (titleIndex !== -1) {
+      const escapedParts = parts.map(escapeHtml);
+      escapedParts[titleIndex] = `<a class="inline-link" href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapedParts[titleIndex]}</a>`;
+      html = escapedParts.join('. ');
+    }
+  }
+
+  return html.replace(/†/g, '').replace(/[∗*]/g, '<sup>∗</sup>');
 }
 
 function toItem(p) {
@@ -445,18 +480,7 @@ function toItem(p) {
 
   const citation = document.createElement('p');
   citation.className = 'pub-citation';
-  citation.innerHTML = `[${p.number}] ${formatCitationHtml(p.citation)}`;
-
-  if (primaryUrl) {
-    const primary = document.createElement('a');
-    primary.href = primaryUrl;
-    primary.target = '_blank';
-    primary.rel = 'noopener';
-    primary.textContent = 'link';
-    primary.className = 'inline-link';
-    citation.append(' ');
-    citation.appendChild(primary);
-  }
+  citation.innerHTML = `[${p.number}] ${buildLinkedCitationHtml(p.citation, primaryUrl)}`;
 
   item.appendChild(citation);
 

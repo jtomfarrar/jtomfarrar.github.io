@@ -91,8 +91,40 @@ def scholar_search_url(citation: str) -> str:
     return f"https://scholar.google.com/scholar?q={quote_plus(cleaned)}"
 
 
-def format_citation_html(citation: str) -> str:
+def looks_like_author_segment(segment: str) -> bool:
+    text = segment.strip()
+    if not text:
+        return True
+    if "," in text:
+        return len(text.split()) <= 4
+
+    words = text.split()
+    if len(words) <= 2 and all(re.fullmatch(r"[A-Z][A-Za-z'’\-]*", word) for word in words):
+        return True
+
+    return False
+
+
+def format_citation_html(citation: str, url: str | None) -> str:
     safe = html.escape(citation)
+    if url:
+        parts = citation.split(". ")
+        title_index = next(
+            (
+                index
+                for index, part in enumerate(parts)
+                if index > 0 and not looks_like_author_segment(part) and len(part.strip().split()) >= 4
+            ),
+            -1,
+        )
+        if title_index != -1:
+            safe_url = html.escape(url, quote=True)
+            safe_parts = [html.escape(part) for part in parts]
+            safe_parts[title_index] = (
+                f'<a class="inline-link" href="{safe_url}" target="_blank" rel="noopener">{safe_parts[title_index]}</a>'
+            )
+            safe = ". ".join(safe_parts)
+
     safe = safe.replace("†", "")
     safe = re.sub(r"[∗*]", "<sup>∗</sup>", safe)
     return safe
@@ -100,7 +132,6 @@ def format_citation_html(citation: str) -> str:
 
 def render_item(pub: dict, number_map: dict[int, str], title_map: list[tuple[str, str]]) -> str:
     citation = pub.get("citation", "").strip()
-    safe_citation = format_citation_html(citation)
     number = pub.get("number", "")
     url = (
         number_map.get(int(number))
@@ -108,13 +139,8 @@ def render_item(pub: dict, number_map: dict[int, str], title_map: list[tuple[str
         or mapped_url(citation, title_map)
         or scholar_search_url(citation)
     )
-    link_html = ""
-    if url:
-        safe_url = html.escape(url, quote=True)
-        link_html = (
-            f' <a class="inline-link" href="{safe_url}" target="_blank" rel="noopener">link</a>'
-        )
-    return f'      <article class="pub-item"><p class="pub-citation">[{number}] {safe_citation}{link_html}</p></article>'
+    safe_citation = format_citation_html(citation, url)
+    return f'      <article class="pub-item"><p class="pub-citation">[{number}] {safe_citation}</p></article>'
 
 
 def render_section(

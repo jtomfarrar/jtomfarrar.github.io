@@ -676,6 +676,10 @@ h2 {
   text-decoration: underline;
 }
 
+.pub-citation .inline-link {
+  font-size: inherit;
+}
+
 .inline-link:hover {
   text-decoration-thickness: 2px;
 }

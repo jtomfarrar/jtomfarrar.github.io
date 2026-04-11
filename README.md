@@ -44,56 +44,19 @@ After updating your CV PDF, run:
 
 ```bash
 cd personal_website
-pdftotext -layout material/Tom_CV-6.pdf material/Tom_CV-6.txt
+python update_publications.py
 ```
 
-Then regenerate `publications-data.js` (existing command below), and finally regenerate the static HTML block:
-
-```bash
-python generate_publications_static.py
-```
+Prerequisite: `pdftotext` must be installed and available on `PATH`.
 
 This keeps:
 - dynamic search/filter behavior (JavaScript)
 - static publication content in page source (better indexing by crawlers)
 
-Regenerate when CV is updated:
+`update_publications.py` runs the full workflow:
 
-```bash
-cd personal_website
-pdftotext -layout material/Tom_CV-6.pdf material/Tom_CV-6.txt
-python - <<'PY'
-from pathlib import Path
-import json,re
-base=Path('.')
-text=(base/'material'/'Tom_CV-6.txt').read_text(encoding='utf-8',errors='ignore')
-pubs=[]; section='peer'; active=None
-def norm(s): return s.replace('\x0c','').strip()
-def detect(s,c):
-  if re.match(r'^Manuscripts in review',s,re.I): return 'review'
-  if re.match(r'^Peer-reviewed articles',s,re.I): return 'peer'
-  if re.match(r'^Other publications',s,re.I): return 'other'
-  return c
-def push():
-  global active
-  if not active: return
-  t=re.sub(r'\s+',' ',active['body'])
-  t=re.sub(r'\s+([.,;:])',r'\1',t)
-  t=re.sub(r'Contributions:\s.*$','',t,flags=re.I).strip()
-  if t: pubs.append({'number':active['number'],'section':active['section'],'citation':t})
-for raw in text.splitlines():
-  line=norm(raw)
-  if not line: continue
-  if re.match(r'^Conference\s*&\s*Workshop\s*Presentations',line,re.I): break
-  if re.match(r'^Farrar:\s+February',line) or re.match(r'^\d+/24$',line): continue
-  section=detect(line,section)
-  m=re.match(r'^\s*\[(\d+)\]\s*(.*)$',line)
-  if m:
-    push(); active={'number':int(m.group(1)),'section':section,'body':m.group(2).strip()}; continue
-  if not active: continue
-  active['body']=active['body'][:-1]+line if active['body'].endswith('-') else active['body']+' '+line
-push()
-(base/'publications-data.js').write_text('window.CV_PUBLICATIONS = '+json.dumps(pubs,ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
-print('Wrote',len(pubs),'entries to publications-data.js')
-PY
-```
+- `pdftotext -layout material/Tom_CV-6.pdf material/Tom_CV-6.txt`
+- regeneration of `publications-data.js`
+- regeneration of the static publication HTML inside `publications.html`
+
+The wrapper also strips dated CV footer/page artifacts such as `Farrar: April 11, 2026 7/24` so they do not leak into publication citations.
