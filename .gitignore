@@ -1,0 +1,9 @@
+# Local agent context; keep it out of the published GitHub repository.
+/AGENTS.md
+
+# Python-generated local artifacts.
+__pycache__/
+*.py[cod]
+
+# Windows download metadata.
+*:Zone.Identifier
